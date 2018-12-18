@@ -23,7 +23,8 @@ twitter_username:
 github_username:  pkane2001
 company_name: Paul K.
 
-disqus_shortname: deltawave.disqus.com
+disqus_shortname: "deltawave.disqus.com"
+disqus_id: "deltawave"
 
 # Build settings
 markdown: kramdown
