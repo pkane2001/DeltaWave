@@ -1,0 +1,36 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: DeltaWave Audio Null Tester
+  version: 1.0b
+  accordion: true
+
+  folders:
+
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Get started
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: Release Notes
+      url: /release_notes_1.0b.html
+      output: web, pdf
+
+  - title: Installation
+    output: web, pdf
+    folderitems:
+
+    - title: Prerequisites
+      url: /mydoc_prerequisites.html
+      output: web, pdf
+
+    - title: Download and Install
+      url: /mydoc_install.html
+      output: web, pdf
+

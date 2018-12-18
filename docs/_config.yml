@@ -21,10 +21,19 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://deltaw.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  pkane2001
+company_name: Paul K.
+
+disqus_shortname: deltawave.disqus.com
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+
+remote-theme: documentation-theme-jekyll
+
+output: web
+topnav_title: DeltaWave
+site_title: DeltaWave documentation
+
 plugins:
   - jekyll-feed
 
@@ -39,3 +48,17 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+sidebars:
+- mydoc_sidebar
+
+-
+  scope:
+    path: ""
+    type: "pages"
+  values:
+    layout: "page"
+    comments: true
+    search: true
+    sidebar: mydoc_sidebar
+    topnav: topnav
