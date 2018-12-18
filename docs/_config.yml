@@ -32,8 +32,9 @@ markdown: kramdown
 remote-theme: documentation-theme-jekyll
 
 output: web
-topnav_title: DeltaWave
+topnav_title: DeltaWave Audio Null Comparator
 site_title: DeltaWave documentation
+feedback_disable: true
 
 plugins:
   - jekyll-feed

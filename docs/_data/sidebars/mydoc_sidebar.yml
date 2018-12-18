@@ -38,11 +38,11 @@ entries:
       url: /mydoc_quickstart.html
       output: web, pdf
 
-    - title: Detailed Guide
-      url: /mydoc_install.html
+    - title: Settings
+      url: /settings.html
       output: web, pdf
 
     - title: Technical Details
-      url: /mydoc_install.html
+      url: /details.html
       output: web, pdf
 

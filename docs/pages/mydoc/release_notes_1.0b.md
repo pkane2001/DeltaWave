@@ -12,7 +12,7 @@ comments: true
 
 ## What is it?
 DeltaWave is an experimental software built to allow detailed comparison of two different captures of the same audio signal.
-The idea of DeltaWave is loosely based on [Audio DiffMaker software](http://www.libinst.com/Audio%20DiffMaker.htm), but it is a completely new piece of software, written from scratch. No parts of Audio DiffMaker were used in DeltaWave. Calculations and algorithms used in DeltaWave are also potentially very different, so some results may or may not agree between these two programs.
+It was inspired by the idea of [Audio DiffMaker](http://www.libinst.com/Audio%20DiffMaker.htm), but it is a completely new piece of software, written from scratch. No parts of Audio DiffMaker were used in DeltaWave. Calculations and algorithms used in DeltaWave are also different, and results are more than likely not agree between these two programs. As I was never successful at using *Audio DiffMaker* but wanted to, DeltaWave was born.
 
 ## Is it free?
 DeltaWave is provided to you free of charge, and contains no advertisements or in-program purchases.
