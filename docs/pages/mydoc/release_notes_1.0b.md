@@ -17,6 +17,8 @@ It was inspired by the idea of [Audio DiffMaker](http://www.libinst.com/Audio%20
 ## Is it free?
 DeltaWave is provided to you free of charge, and contains no advertisements or in-program purchases.
 
+This is an early beta version of the software and is set to expire in 60 days, around February 19, 2019. Please check this website before then to get an updated copy!
+
 ## What can I do with it?
 As the most basic function, DeltaWave allows an objective measure of how different two captures of the same audio signal might be.
 

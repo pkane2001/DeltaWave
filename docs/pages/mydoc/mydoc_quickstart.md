@@ -22,12 +22,12 @@ comments: true
 ## Basic Operation
 There are two ways to process files: 
 
-* Passive
-* Active
+* Full matching mode, and
+* Preview mode, with no matching
 
-In *Passive* mode the files are loaded but no matching is performed. This provides a quick preview of the data and some simple analysis. Usually this is much quicker than the *Active* mode. Press *Show* button to perform *Passive* analysis.
+In *Preview* mode the files are loaded but no matching is performed. This provides a quick preview of the data and some simple analysis. Usually this is much quicker than the *Full Matching* mode. Press *Show* button to perform *Preview* analysis.
 
-In *Active* mode, the files are loaded, and processed (in memory - files are not written so don't worry about overwriting!) The processing involves adjusting the waveforms to match in sampling frequency, phase, and amplitude. This is mostly automatic when you press *Match* button.
+In *Matching* mode, the files are loaded, and processed (in memory - files are not written so don't worry about overwriting!) The processing involves adjusting the waveforms to match in sampling frequency, phase, and amplitude. This is mostly automatic when you press *Match* button.
 
 
 ### Simple file preview without performing matching 
@@ -71,7 +71,7 @@ Phase Drift | (in ppm) is the detected clock drift between the two files. 0 mean
 |Original Delta | This is the waveform that results from subtracting reference file from the comparison. Again, no matching done to produce this chart, so this is an indication of how different the files are in their unprocessed state.
 |X-Correlated | First step in aligning the two files to start on the same sample. This is done using cross-correlation. The result will be a better match in time, although the accuracy is +/- one sample (not very good).
 Matched | This is the waveform comparison after a full matching process. What's displayed here is clock-drift corrected, level-matched, and aligned to sub-sample accuracy.
-Matched Spectrum | Spectrum (FFT power) plot of both files after matching. This is peformed on the truncated portion of the files, as specified by Trim parameters, and after full phase/drift/level matching. As such, this represents an average spectrum of each of the files.
+Matched Spectrum | Spectrum (FFT power) plot of both files after matching. This is performed on the truncated portion of the files, as specified by Trim parameters, and after full phase/drift/level matching. As such, this represents an average spectrum of each of the files.
 Delta Spectrum | Spectrum of the difference waveform created by subtracting the matched version of Reference file from Comparison. This is the spectrum of what remains after their subtraction.
 Delta Waveform | Time domain display of the difference between matched Reference and Comparison file. This is what the difference looks like as a waveform.
 Matched Phase | Phase difference computed from the FFT of both files after full matching process. Expressed in degrees.

@@ -5,11 +5,16 @@ allowed-tags:
   - getting_started
   - content_types
   - navigation
-  - formatting
-  - publishing
-  - single_sourcing
-  - special_layouts
-  - collaboration
+  - correlation
+  - fft
+  - cepstrum
+  - plot
+  - chart
+  - phase
+  - window
+  - installation
+  - setup
+  - settings
   - news
   - troubleshooting
-  - mobile
+  - download

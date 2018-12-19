@@ -10,6 +10,6 @@ folder: mydoc
 comments: true
 ---
 
-### Watch this space for upcoming description of the technology behind DeltaWave
+### [Watch this space for upcoming description of the technology behind DeltaWave]
 ___
 {% include links.html %}

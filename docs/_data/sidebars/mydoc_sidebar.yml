@@ -41,7 +41,9 @@ entries:
     - title: Settings
       url: /settings.html
       output: web, pdf
-
+    - title: Plot Controls
+      url: plot_start.html
+      output: web, pdf
     - title: Technical Details
       url: /details.html
       output: web, pdf
