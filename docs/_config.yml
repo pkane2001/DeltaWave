@@ -22,7 +22,7 @@ url: "https://deltaw.org" # the base hostname & protocol for your site, e.g. htt
 twitter_username: 
 github_username:  pkane2001
 company_name: Paul K.
-
+google_analytics: UA-90967706-2
 disqus_shortname: "deltawave.disqus.com"
 disqus_id: "deltawave"
 
