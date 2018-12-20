@@ -30,7 +30,7 @@ In *Preview* mode the files are loaded but no matching is performed. This provid
 In *Matching* mode, the files are loaded, and processed (in memory - files are not written so don't worry about overwriting!) The processing involves adjusting the waveforms to match in sampling frequency, phase, and amplitude. This is mostly automatic when you press *Match* button.
 
 ### One channel at a time
-DeltaWave uses just a single channel for comparison. You can choose L or R channel from a stereo file for each of the two selections. The resulting delta is also only a single channel. Possibly a future enhancement to process both channels in a 2-channel recording.
+DeltaWave uses just a single channel for comparison. You can choose L or R channel from a stereo file for each of the two selections. The resulting delta is also only a single channel. Possibly a future enhancement to be added will be to process both channels in a 2-channel recording.
 
 ### Simple file preview without performing matching 
 If you want to just visualize the two files and get basic statistics without doing all the heavy computation needed to properly 
