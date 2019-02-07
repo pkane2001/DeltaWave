@@ -23,7 +23,7 @@ entries:
       output: web, pdf
 
     - title: Release Notes
-      url: /release_notes_1.0b.html
+      url: /release_notes_1.0.1b.html
       output: web, pdf
 
     - title: Features
