@@ -11,7 +11,7 @@ comments: true
 
 ## <a href="DeltaWaveSetup.zip">Download  <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top">   </a>
 
-This is an early beta version of the software and is set to expire in 60 days, around February 19, 2019. 
+This is an early beta version of the software and is set to expire in 60 days. 
 
 Please check this website before then to get an updated copy!
 
