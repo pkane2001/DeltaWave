@@ -2,8 +2,8 @@
 title: Release notes
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
-last_updated: December 17, 2018
-summary: "Version 1.0b of DeltaWave is the initial beta release of this software. Use at your own risk!"
+last_updated: February 7, 2019
+summary: "Version 1.0.1b of DeltaWave is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: release_notes_1.0b.html
 folder: mydoc
