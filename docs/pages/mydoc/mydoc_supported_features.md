@@ -36,6 +36,6 @@ Features |  Notes
 --------|-----------
 Process files larger than available memory | Planned for future release
 Faster load time for DSF format files | Planned for future release
-Audio Playback | needs work -- currently some parts are broken
+Audio Playback | Missing support for ASIO playback
 
 {% include links.html %}

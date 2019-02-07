@@ -1,5 +1,5 @@
 ---
-title: Release notes 1.0b
+title: Release notes
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
 last_updated: December 17, 2018
@@ -17,7 +17,7 @@ It was inspired by the idea of [Audio DiffMaker](http://www.libinst.com/Audio%20
 ## Is it free?
 DeltaWave is provided to you free of charge, and contains no advertisements or in-program purchases.
 
-This is an early beta version of the software and is set to expire in 60 days, around February 19, 2019. Please check this website before then to get an updated copy!
+This is an early beta version of the software and is set to expire in 60 days. Please check this website before then to get an updated copy!
 
 ## What can I do with it?
 As the most basic function, DeltaWave allows an objective measure of how different two captures of the same audio signal might be.
