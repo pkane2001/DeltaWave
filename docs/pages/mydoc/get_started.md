@@ -3,7 +3,7 @@ title: Get Started
 tags: [getting_started,installation,download]
 keywords: release notes, announcements, what's new, new features
 last_updated: December 17, 2018
-summary: "Version 1.0.1b of DeltaWave is the initial beta release of this software. Use at your own risk!"
+summary: "Version 1.0.2b of DeltaWave is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: get_started.html
 folder: mydoc
@@ -20,7 +20,7 @@ The software is very CPU and memory intensive, recommended configuration at leas
 Here you go: 
 <a href="DeltaWaveSetup.zip">Download  <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top" />   </a>
 
-This is an early beta version of the software and is set to expire in 60 days, around February 19, 2019.
+This is an early beta version of the software and is set to expire in 60 days.
 
 Please check this website before then to get an updated copy!
 
