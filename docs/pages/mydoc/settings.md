@@ -2,8 +2,8 @@
 title: Settings
 tags: [settings]
 keywords: settings, configuration, customization, fft, gain, enable, disable
-last_updated: December 17, 2018
-summary: "Version 1.0.2b of DeltaWave is the initial beta release of this software. Use at your own risk!"
+last_updated: February 13, 2019
+summary: "Version 1.0.4b of DeltaWave is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: settings.html
 folder: mydoc
