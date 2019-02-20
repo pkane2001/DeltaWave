@@ -56,7 +56,7 @@ Examples where this can be useful include:
 * File menu now has two additional options 
   * Save Compare File
   * Save Delta File
-* 
+  
 
 
 ___
