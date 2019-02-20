@@ -44,6 +44,20 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## What is new in version 1.0.5b?
+
+* Added logging for problem reporting and troubleshooting. Available under Help->Logging Menu
+* Added A-Weighted measurements to better represent audible differences, shown as dBA value in RMS Difference and Correlated-Null values. This applies greater weight to frequencies that the human ear is sensitive to.
+* Fixed linear drift correction. Should work much better than in the previous version (turn off NonLinear Drift correction setting)
+* Improved clock drift calculation, works more consistently and accurately
+* Added tab display selection in settings. You can now chose what tabs and charts will be available after a Match. This also controls what plots will be included in a report: any plot that is not visible will not be included.
+* Added a Plot showing Delta of Spectra -- this is the spectrum of Comparison file subtracted from the spectrum of Reference. The closer this is to a flat line at zero, the better the spectra match between two files.
+* Improved, formatted display of the results on the status bar
+* File menu now has two additional options 
+  * Save Compare File
+  * Save Delta File
+* 
+
 
 ___
 {% include links.html %}
