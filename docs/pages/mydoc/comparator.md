@@ -14,7 +14,7 @@ comments: true
 
 After creating that near-perfect match using DeltaWave, wouldn't it be nice to be able to compare the two files that are perfectly aligned in phase and level? Enter the Comparator. Comparator is a tool that allows you to run both, sighted, and blind audibility tests to determine if the two files have sufficient differences to be detected in playback. 
 
-<img src="images/img10.png" style="vertical-align: middle" />
+<img src="images/img11.png" style="vertical-align: middle" />
 
 ## Where is it?
 
