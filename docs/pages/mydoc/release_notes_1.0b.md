@@ -44,6 +44,15 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## What is new in version 1.0.6b?
+* Improved plot axis labeling with a more intelligent choice of units and decimal places to display
+* Added AB/X style Comparator
+* Added the support for DFF-formated DSD files (uncompressed only) 
+* Added playback position display and ability to set playback position by clicking on the control
+* Added the option to turn off MD5 hash in the results, as this could cause some delay when processing large files
+* Changed how the Trim functions work: the data that is trimmed is now skipped when reading the file. Previously the whole file was loaded into memory and then trimmed
+* Added a 50% bit-perfect match result. This is how many bits the files need to be reduced to in order for 50% of the samples to match exactly. 
+
 ## What is new in version 1.0.5b?
 
 * Added logging for problem reporting and troubleshooting. Available under Help->Logging Menu
