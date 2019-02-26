@@ -59,7 +59,7 @@ Some suggested steps to do an ABX-style comparison:
 3. The goal is to determine if track X is the same as A, or B. If you can't tell immediately, move the mouse to A or B square to compare these to X. You can quickly switch between X and A, X and B by moving the mouse back and forth between the appropriate squares
 4. Once comfortable that you know what track X is, press one of the two buttons to make your selection: X=A if you think X is track A, or X=B if you think X is track B
 5. Your result will be recorded in the result box, but you will not see if the choice was correct or not until you done with all the trials
-6. As soon as you record a result, Comparator will make another random pick, so you can continue the test by repeating steps 2-6. 
+6. As soon as you record a result, Comparator will make another random pick, so you can continue the test by repeating steps 2-6.
 7. Repeat 15-20 times. This helps keep get a reasonable statistical result, while not being too tiring of a process
 
 When finished with the desired number of trials, click on the **Reveal Results** checkbox. Comparator will show all the results and compute a percent statistic that shows whether or not the result is statistically significant. Often, a 5% or lower statistic is considered significant. If you want to be more strict, less than 1% is a good metric to strive for.

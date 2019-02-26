@@ -44,7 +44,7 @@ entries:
     - title: Plot Controls
       url: plot_start.html
       output: web, pdf
-      - title: DeltaWave Comparator
+    - title: DeltaWave Comparator
       url: comparator.html
       output: web, pdf
     - title: Technical Details
