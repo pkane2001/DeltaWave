@@ -44,6 +44,12 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in version 1.0.7b
+* Added high-contrast plot display option
+* Reversed the direction of the plot in Delta of Spectra, so that it is now Comparison - Reference
+* Added tooltips to controls on the main screen, settings , and Comparator screens
+* Fixed the plot refresh button as it caused certain parts of the plots to be hidden
+
 ## Changes in version 1.0.6b
 * Improved plot axis labeling with a more intelligent choice of units and decimal places to display
 * Added AB/X style Comparator
