@@ -44,6 +44,12 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in version 1.0.8b
+* Fixed volume control  during playback
+* Fixed driver selection for WASAPI drivers 
+* Added Log frequency axis display option
+
+
 ## Changes in version 1.0.7b
 * Added high-contrast plot display option
 * Reversed the direction of the plot in Delta of Spectra, so that it is now Comparison - Reference
