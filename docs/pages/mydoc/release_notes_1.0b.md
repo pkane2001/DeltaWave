@@ -2,7 +2,7 @@
 title: Release notes
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
-last_updated: February 26, 2019
+last_updated: March 4, 2019
 summary: "Version 1.0b of DeltaWave is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: release_notes_1.0b.html
@@ -44,9 +44,17 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in version 1.0.9b
+* Fixed setting correct audio driver after restart
+* Changed driver list to display Friendly Name
+* Changed DSD conversion process from CIC demodulator to a low-pass FIR filter, added DSD conversion settings
+* Improved Log axis label formatting
+* Added support for drag-and-drop of one or two audio files into DW main window from Windows Explorer
+* Added a swap option to File menu
+
 ## Changes in version 1.0.8b
-* Fixed volume control  during playback
-* Fixed driver selection for WASAPI drivers 
+* Fixed volume control during playback
+* Fixed driver selection for WASAPI drivers
 * Added Log frequency axis display option
 
 
