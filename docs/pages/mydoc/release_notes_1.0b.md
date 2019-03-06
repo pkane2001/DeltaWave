@@ -44,6 +44,11 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.10b
+* Hopefully better control positioning and sizing under diffrent Windows DPI settings and versions
+* Slightly faster DSD reader
+* More low-pass filter settings, including 'none' for DSD conversion
+
 ## Changes in version 1.0.9b
 * Fixed setting correct audio driver after restart
 * Changed driver list to display Friendly Name
