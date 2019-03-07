@@ -44,6 +44,11 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.11b
+* One more attempt at supporting high-DPI in Windows 10
+* Added font selector for custom font face and size
+* Changed frequency label routine to show more decimal places to eliminate duplicate-looking labels
+
 ## Changes in 1.0.10b
 * Hopefully better control positioning and sizing under diffrent Windows DPI settings and versions
 * Slightly faster DSD reader
