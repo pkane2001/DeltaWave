@@ -44,6 +44,11 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.12b
+* Fix for audio driver shown in the list but audio not playing
+* Fix for DSD file right channel selector causing an error
+* Set minimum limits on plots to avoid zooming in to the rounding error in floating point computations
+
 ## Changes in 1.0.11b
 * One more attempt at supporting high-DPI in Windows 10
 * Added font selector for custom font face and size
