@@ -44,6 +44,10 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.14b
+* Added manual and automatic resampling for audio playback on audio cards where native rates are not support
+* Changed non-linear drift correction to be off by default
+
 ## Changes in 1.0.12b
 * Fix for audio driver shown in the list but audio not playing
 * Fix for DSD file right channel selector causing an error
