@@ -45,7 +45,7 @@ Examples where this can be useful include:
 * Write out the difference track as 32-bit WAV file for external analysis
 
 ## Changes in 1.0.14b
-* Added manual and automatic resampling for audio playback on audio cards where native rates are not support
+* Added manual and automatic resampling for audio playback on audio cards where native rates are not supported
 * Changed non-linear drift correction to be off by default
 
 ## Changes in 1.0.12b
