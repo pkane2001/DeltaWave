@@ -3,7 +3,7 @@
 entries:
 - title: sidebar
   product: DeltaWave
-  version: 1.0.14b
+  version: 1.0.15b
   accordion: true
 
   folders:

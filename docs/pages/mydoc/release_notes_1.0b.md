@@ -44,6 +44,12 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.15b
+* Fixed a problem that caused larger phase difference in the first few second of the track compared to the rest of the track
+* Removed non-linear polynomial gain correction
+* Removed non-linear drift correction
+* Added non-linear EQ/frequency matching correction
+
 ## Changes in 1.0.14b
 * Added manual and automatic resampling for audio playback on audio cards where native rates are not supported
 * Changed non-linear drift correction to be off by default
