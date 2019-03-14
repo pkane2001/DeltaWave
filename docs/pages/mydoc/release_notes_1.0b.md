@@ -44,6 +44,14 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.17b
+* Fixed a problem with the Index out of Bounds error when engaging DC offset removal option
+* Fixed a problem that resulted in Reference level being adjusted to match Comparison, instead of the other way around
+* Added support for down-mixing stereo files into a mono track for comparison (DSD not supported with L+R yet)
+* Fixed a small glitch with FFT windowing routine that resulted in a low frequency spurious tone with certain window types
+* Added track RMS and peak values before and after matching to the Results tab
+* Added drag-and-drop of individual files to the Reference and Comparison boxes
+
 ## Changes in 1.0.15b
 * Fixed a problem that caused larger phase difference in the first few second of the track compared to the rest of the track
 * Removed non-linear polynomial gain correction
