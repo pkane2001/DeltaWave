@@ -10,7 +10,7 @@ folder: mydoc
 comments: true
 ---
 
-##References##
+## References ##
 
 [*Towards a Definitive Analysis of Audio System Errors* by Chris Dunn and Malcolm Hawksford, 1991 AES Convention](https://www.researchgate.net/publication/269101366_TOWARDS_A_DEFINITIVE_ANALYSIS_OF_AUDIO_SYSTEM_ERRORS)
 
