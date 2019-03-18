@@ -44,6 +44,13 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.18b
+* Added Stereo XY difference test to the Comparator
+* Added Preference XY different test to the Comparator
+* Added file and settings information to the test result window for validation
+* Changed the behavior of play buttons and menu items, including the comparator to not require a Show or Match button press
+* Extended default frequency scale on plots to Nyquist frequency
+  
 ## Changes in 1.0.17b
 * Fixed a problem with the Index out of Bounds error when engaging DC offset removal option
 * Fixed a problem that resulted in Reference level being adjusted to match Comparison, instead of the other way around
