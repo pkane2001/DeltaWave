@@ -44,6 +44,20 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.20b
+* Better nulls with Audacity-processed 16-bit files
+* Read 24- and 32-bit integer WAV formats correctly
+* Display correct offset value in Results tab
+* Added silence trimming option (on by default)
+* Added scale display and other enhancements in the spectrogram windows, including annotation support
+* Changed the waveform Y axis to display in dB rather than 1 to -1 floating point by default
+* Added option to switch between dB and floating point view of Y axis
+* Fixed the 100% that's really a 'nearly 100%' display
+* Fixed the installer so previous versions are removed from the list of installed packages
+* Handled different number of samples in left and right channels when working on L+R mono mix-down channel
+* Added an optional, more stable drift correction method if the normal method does not converge
+* Various minor spelling/terminology fixes
+
 ## Changes in 1.0.18b
 * Added Stereo XY difference test to the Comparator
 * Added Preference XY different test to the Comparator
