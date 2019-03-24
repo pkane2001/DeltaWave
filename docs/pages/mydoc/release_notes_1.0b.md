@@ -50,6 +50,7 @@ Examples where this can be useful include:
 * Display correct offset value in Results tab
 * Added silence trimming option (on by default)
 * Added scale display and other enhancements in the spectrogram windows, including annotation support
+* Right-click now removes the last annotation added to the chart
 * Changed the waveform Y axis to display in dB rather than 1 to -1 floating point by default
 * Added option to switch between dB and floating point view of Y axis
 * Fixed the 100% that's really a 'nearly 100%' display
