@@ -44,6 +44,11 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.21b
+* Fixed some issues with annotations, improve readability and formatting
+* Fixed an issue where a few samples were not read at the end of WAV file
+* Added microsecond display option to show detailed time information on X axis
+
 ## Changes in 1.0.20b
 * Better nulls with Audacity-processed 16-bit files
 * Read 24- and 32-bit integer WAV formats correctly
