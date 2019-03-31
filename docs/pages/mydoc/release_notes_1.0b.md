@@ -46,8 +46,8 @@ Examples where this can be useful include:
 * Fixed bits needed for 50% match calculation if the result is already better than 50%
  
 ## Changes in 1.0.22b
-* Added manual adjustments window with built-in tester/optimizer of null parameters (**Process->Manual Adjustments...** menu)
-* Added option for exporting WAV data in various combinations (**File->Export WAV File...*** menu)
+* Added manual adjustments window with a manual and automatic tester/optimizer of null parameters (**Process->Manual Adjustments...** menu)
+* Added option for exporting WAV data in various combinations (**File->Export WAV File...** menu)
 * Added Unwrap Phase option (**View->Charts->Unwrap Phase** menu) for delta phase display
 * Optimized for precision in calculations, ensuring only significant digits are used in processing, increased precision
 * Changed the logic to automatically switch to the alternative drift correction algorithm if the default one doesn't produce a valid result
