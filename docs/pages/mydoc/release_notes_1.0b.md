@@ -45,6 +45,12 @@ Examples where this can be useful include:
 * Write out the difference track as 32-bit WAV file for external analysis
 * Fixed bits needed for 50% match calculation if the result is already better than 50%
  
+## Changes in 1.0.23b
+* Added Quality of Fit indicator
+* Added support for AIFF file format
+* Added Clock Drift plot
+* Replaced stock resamplers with my own FFT versions for better accuracy
+
 ## Changes in 1.0.22b
 * Added manual adjustments window with a manual and automatic tester/optimizer of null parameters (**Process->Manual Adjustments...** menu)
 * Added option for exporting WAV data in various combinations (**File->Export WAV File...** menu)
