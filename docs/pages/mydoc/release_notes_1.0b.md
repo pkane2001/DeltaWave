@@ -50,7 +50,8 @@ Examples where this can be useful include:
 * Added support for AIFF file format
 * Added Clock Drift plot
 * Replaced stock resamplers with my own FFT versions for better accuracy
-
+* Added axis lock/unlock option for each of the plots
+  
 ## Changes in 1.0.22b
 * Added manual adjustments window with a manual and automatic tester/optimizer of null parameters (**Process->Manual Adjustments...** menu)
 * Added option for exporting WAV data in various combinations (**File->Export WAV File...** menu)
