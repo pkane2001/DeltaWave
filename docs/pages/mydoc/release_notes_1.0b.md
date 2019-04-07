@@ -44,7 +44,16 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 * Fixed bits needed for 50% match calculation if the result is already better than 50%
- 
+
+## Changes in 1.0.24b
+* Added support for IIR and FIR filters in settings
+* Improved ringing performance of LP/HP/Notch filters
+* Improved drift calculation precision
+* Removed the precision setting (always set to 30 now)
+* Added time axis display in samples, in addition to second, and microseconds
+* Added data caching option to the Manual Adjustment screen to speed up processing
+* Fixed clock drift plot to show last calculated drift instead of next to last
+
 ## Changes in 1.0.23b
 * Added Quality of Fit indicator
 * Added support for AIFF file format
