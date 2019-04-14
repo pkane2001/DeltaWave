@@ -2,7 +2,7 @@
 title: Release notes
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
-last_updated: March 4, 2019
+last_updated: April 14, 2019
 summary: "Version 1.0b of DeltaWave is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: release_notes_1.0b.html
@@ -45,6 +45,15 @@ Examples where this can be useful include:
 * Write out the difference track as 32-bit WAV file for external analysis
 * Fixed bits needed for 50% match calculation if the result is already better than 50%
 
+## Changes in 1.0.25b
+* Added error % distribution chart
+* Added gain error over time chart
+* Improved sub-sample offset calculation to reduce residual drift error
+* Added tab selection menu item
+* Added option to apply filters before or after the calculations
+* Changed clock drift error raw plot to show actual error instead of linear interpolation
+* Changed sample trimming to remove any data from time that doesn't have corresponding data in the other waveform.
+ 
 ## Changes in 1.0.24b
 * Added support for IIR and FIR filters in settings
 * Improved ringing performance of LP/HP/Notch filters
