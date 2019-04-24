@@ -45,6 +45,14 @@ Examples where this can be useful include:
 * Write out the difference track as 32-bit WAV file for external analysis
 * Fixed bits needed for 50% match calculation if the result is already better than 50%
 
+## Changes in 1.0.26b
+* Changed silence trim function to also auto-trim mismatched parts of the waveforms front and back (up to 5 secs each)
+* Added Correlated Null chart showing average Correlated Null over time
+* Improved precision of offset and drift calcluation
+* Changed the gain difference calculation to improve performance with narrow filters
+* Improved match performance with less than 10 seconds of waveform data
+* Added more decimal places to the display in the Manual Adjustments results table
+
 ## Changes in 1.0.25b
 * Added error % distribution chart
 * Added gain error over time chart
@@ -52,7 +60,8 @@ Examples where this can be useful include:
 * Added tab selection menu item
 * Added option to apply filters before or after the calculations
 * Changed clock drift error raw plot to show actual error instead of linear interpolation
-* Changed sample trimming to remove any data from time that doesn't have corresponding data in the other waveform.
+* Changed sample trimming to remove any data from time that doesn't have corresponding data in the other waveform
+* Changed the method used to calculate gain differences to include more of the waveform data
  
 ## Changes in 1.0.24b
 * Added support for IIR and FIR filters in settings
