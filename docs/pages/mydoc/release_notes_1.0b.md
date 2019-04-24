@@ -48,7 +48,7 @@ Examples where this can be useful include:
 ## Changes in 1.0.26b
 * Changed silence trim function to also auto-trim mismatched parts of the waveforms front and back (up to 5 secs each)
 * Added Correlated Null chart showing average Correlated Null over time
-* Improved precision of offset and drift calcluation
+* Improved precision of offset and drift calculation
 * Changed the gain difference calculation to improve performance with narrow filters
 * Improved match performance with less than 10 seconds of waveform data
 * Added more decimal places to the display in the Manual Adjustments results table
