@@ -45,6 +45,17 @@ Examples where this can be useful include:
 * Write out the difference track as 32-bit WAV file for external analysis
 * Fixed bits needed for 50% match calculation if the result is already better than 50%
 
+## Changes in 1.0.27b
+* Added upsample/downsample rate selection in settings
+* Pressing play button next to any other file while one is already playing will continue playing the new file where the previous one left off
+* Improved stability of FFT calculations to eliminate differences in the least significant digits of double-precision numbers
+* Added a list of recently used files to the File menu
+* Changed the unlock button to remember a separate zoom level for each of the charts
+* Fixed the issue with zoom level resetting when using Manual Adjustment tool
+* Fixed offset value set to zero when using Cached data for the first time in Manual Adjustment tool
+* Improved the accuracy of cross-correlation computation in the presence of a large clock drift
+
+
 ## Changes in 1.0.26b
 * Changed silence trim function to also auto-trim mismatched parts of the waveforms front and back (up to 5 secs each)
 * Added Correlated Null chart showing average Correlated Null over time
