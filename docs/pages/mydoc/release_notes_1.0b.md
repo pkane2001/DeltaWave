@@ -54,7 +54,7 @@ Examples where this can be useful include:
 * Fixed the issue with zoom level resetting when using Manual Adjustment tool
 * Fixed offset value set to zero when using Cached data for the first time in Manual Adjustment tool
 * Improved the accuracy of cross-correlation computation in the presence of a large clock drift
-
+* Fixed the condition for prompting to use alternate drift correction algorithm when using higher resolution sampling rates
 
 ## Changes in 1.0.26b
 * Changed silence trim function to also auto-trim mismatched parts of the waveforms front and back (up to 5 secs each)
