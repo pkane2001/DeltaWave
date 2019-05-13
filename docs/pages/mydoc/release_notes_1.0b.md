@@ -43,7 +43,11 @@ Examples where this can be useful include:
 * Listen to each track, individually
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
-* Fixed bits needed for 50% match calculation if the result is already better than 50%
+
+## Changes in 1.0.28b
+* Fixed trim calculation to allow at least 5 seconds of mismatch at the file start (previous version reduced this to 1 sec)
+* Fixed resampling option from Manual Adjustment window when caching is enabled
+* Added the number of clipped samples indicator and Correct Clipping process menu option to rescale to 0dBFS or less
 
 ## Changes in 1.0.27b
 * Added upsample/downsample rate selection in settings
