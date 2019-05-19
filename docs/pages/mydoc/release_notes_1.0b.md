@@ -44,6 +44,10 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+
+## Changes in 1.0.29b
+* Fixed Spectrogram plots scaling problem introduced in the previous build
+
 ## Changes in 1.0.28b
 * Fixed trim calculation to allow at least 5 seconds of mismatch at the file start (previous version reduced this to 1 sec)
 * Fixed resampling option from Manual Adjustment window when caching is enabled
