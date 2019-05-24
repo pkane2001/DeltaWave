@@ -44,7 +44,7 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
-## Changes in 1.0.29b
+## Changes in 1.0.30b
 * Fixed forced resample option (broken in .28b)
 
 ## Changes in 1.0.29b
