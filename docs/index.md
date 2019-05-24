@@ -10,6 +10,7 @@ comments: true
 ---
 
 ## <a href="DeltaWaveSetup.zip">Download  <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top">   </a>
+[Release notes](/release_notes_1.0b.html)
 
 This is an early beta version of the software and is set to expire in 60 days. 
 
