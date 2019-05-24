@@ -10,7 +10,7 @@ comments: true
 ---
 
 ## <a href="DeltaWaveSetup.zip">Download  <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top">   </a>
-[Release notes](release_notes_1.0b.md)
+[Release notes](pages/mydoc/release_notes_1.0b.md)
 
 This is an early beta version of the software. Please check this website before then to get an updated copy!
 
