@@ -2,7 +2,7 @@
 title: Release notes
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
-last_updated: April 14, 2019
+last_updated: May 24, 2019
 summary: "Version 1.0b of DeltaWave is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: release_notes_1.0b.html
@@ -44,6 +44,8 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.29b
+* Fixed forced resample option (broken in .28b)
 
 ## Changes in 1.0.29b
 * Fixed Spectrogram plots scaling problem introduced in the previous build
