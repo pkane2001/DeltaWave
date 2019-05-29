@@ -44,6 +44,12 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.31b
+* Fixed spectrum plot oscillations after a sharp filter
+* Fixed incorrect offset calculated with some hires files
+* Added Comparison file name to the list of recently used
+* Fixed volume setting not being remembered when switching between Ref/Comp/Delta files
+
 ## Changes in 1.0.30b
 * Fixed forced resample option (broken in .28b)
 
