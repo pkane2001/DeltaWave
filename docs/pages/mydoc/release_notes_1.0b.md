@@ -44,6 +44,15 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.32b
+* Fixed a bug with FLAC reader library that could cause 'echos' in place of zero-valued samples
+* Added Process->DownShift Frequency option to allow listening to ultrasonic frequencies
+* Added Jitter metric measuring timing error
+* Added View->Status Bar options to control information displayed in the status bar
+* Added Non-linear drift correction in Settings to allow the removal of residual non-linear clock-drift errors
+* Changed Notch filter implementation for greater rejection
+* Added labels displaying zoom setting in correct units in custom Zoom dialog
+
 ## Changes in 1.0.31b
 * Fixed spectrum plot oscillations after a sharp filter
 * Fixed incorrect offset calculated with some hires files
