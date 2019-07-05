@@ -44,6 +44,15 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.33b
+* Added non-linear phase correction option (correcting for variable group delays)
+* Results tab now shows group delays in seconds and degrees for a few chosen frequencies
+* Modified delta phase plot to show phase before and after correction, as well as the measured group delay when computed
+* Changed the phase unwrap logic to produce a smoother curve
+* Added support for reading MP3 files
+* Added option to apply current volume control settings to the Reference and Comparison waveforms (under Process Menu)
+* Added one level Undo option to undo previous matching/processing operation
+
 ## Changes in 1.0.32b
 * Fixed a bug with FLAC reader library that could cause 'echos' in place of zero-valued samples
 * Added Process->DownShift Frequency option to allow listening to ultrasonic frequencies
