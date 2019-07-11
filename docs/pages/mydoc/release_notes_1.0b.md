@@ -45,6 +45,11 @@ Examples where this can be useful include:
 * Write out the difference track as 32-bit WAV file for external analysis
 
 ## Changes in 1.0.33b
+* Improved phase unwrap logic
+* Changed Phase EQ to apply full spectrum EQ instead of curve
+* Modified curve fitting algorithm to ignore lower frequencies if there is significant jumps there
+
+## Changes in 1.0.33b
 * Added non-linear phase correction option (correcting for variable group delays)
 * Results tab now shows group delays in seconds and degrees for a few chosen frequencies
 * Modified delta phase plot to show phase before and after correction, as well as the measured group delay when computed
