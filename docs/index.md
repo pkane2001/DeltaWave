@@ -9,7 +9,10 @@ title: DeltaWave Audio Null Comparator
 comments: true
 ---
 
-## <a href="DeltaWaveSetup.zip">Download  <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top">   </a>
+## <a href="DeltaWaveSetup.zip">Download 64-bit  <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top">   </a>
+
+## <a href="DeltaWaveSetup32.zip">Download 32-bit <input type="image" id="download" alt="Download 32-bit" src="images/windows-logo.png" width="30" align="top">   </a>
+
 [Release notes](pages/mydoc/release_notes_1.0b.md)
 
 This is an early beta version of the software. Please check this website before then to get an updated copy!
