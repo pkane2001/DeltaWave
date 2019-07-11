@@ -44,6 +44,9 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.35b
+* Fixed processing of minimum/maximum frequency and threshold when performing non-linear Phase EQ
+
 ## Changes in 1.0.34b
 * Improved phase unwrap logic
 * Changed Phase EQ to apply full spectrum EQ instead of curve
