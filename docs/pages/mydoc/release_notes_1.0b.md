@@ -2,7 +2,7 @@
 title: Release notes
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
-last_updated: May 24, 2019
+last_updated: July 15, 2019
 summary: "Version 1.0b of DeltaWave is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: release_notes_1.0b.html
@@ -43,6 +43,10 @@ Examples where this can be useful include:
 * Listen to each track, individually
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
+
+## Changes in 1.0.37b
+* Fixed an error when applying two filters of the same kind (LP/LP or HP/HP) one at start and one at end of processing
+* Changed the choice of FFT Window function to improve Non-linear EQ (level and phase) precision
 
 ## Changes in 1.0.36b
 * Fixed an error when processing Phase EQ with too few samples for the FFT size
