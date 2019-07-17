@@ -17,6 +17,8 @@ comments: true
 
 This is an early beta version of the software. Please check this website before then to get an updated copy!
 
+![waveform](images/Lyra1.png)
+
 ![waveform](images/img1.png)
 
 ![waveform](images/img2.png)
