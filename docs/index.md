@@ -27,5 +27,7 @@ This is an early beta version of the software. Please check this website before 
 
 ![waveform](images/img4.png)
 
+![waveform](images/Madison.png)
+
 
 {% include links.html %}
