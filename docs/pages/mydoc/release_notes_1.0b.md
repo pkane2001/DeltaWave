@@ -52,15 +52,15 @@ Examples where this can be useful include:
     * Sum of Cosines 23-term
     * Kaiser
     * Taylor
-    * Improvements to older windows precision
-  * Added Spectrum setting to reduce spectral leakage to help reduce the averaging effect of overlap-add FFT
-  * Added Edit menu option to reset all settings to their defaults
-  * Added Manual Adjustment window selector to chose what parameters to use for optimization
-  * Fixed a bug in the Manual Adjustment window that occasionally reset the offset parameter
-  * Improved look and feel of the UI when running on high-DPI displays, e.g., on Windows 10
-  * Added WAV file export option support for 64-bit floating point PCM samples
-  * Improved upsampling/down-sampling algorithms
-  * Fixed a bug that caused Original Spectra window not to refresh when changing certain display options
+    * Improvements to existing windows precision  
+* Added Spectrum setting to reduce spectral leakage to help reduce the averaging effect of overlap-add FFT
+* Added Edit menu option to reset all settings to their defaults
+* Added Manual Adjustment window selector to chose what parameters to use for optimization
+* Fixed a bug in the Manual Adjustment window that occasionally reset the offset parameter
+* Improved look and feel of the UI when running on high-DPI displays, e.g., on Windows 10
+* Added WAV file export option support for 64-bit floating point PCM samples
+* Improved upsampling/down-sampling algorithms
+* Fixed a bug that caused Original Spectra window not to refresh when changing certain display options
 
 ## Changes in 1.0.37b
 * Fixed an error when applying two filters of the same kind (LP/LP or HP/HP) one at start and one at end of processing
