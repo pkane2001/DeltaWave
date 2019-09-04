@@ -77,6 +77,7 @@ Filter Size | Number of taps in FIR or IIR filters
 Window   | Different windows will have slightly different effect on FFT processing. Hann is probably the safest window to use for most tasks, although BlackmanHarris7, Kaiser, Taylor and a few others have some interesting characteristics for digging deep into the noise floor
 
 ### Non-Linear Calibration
+
 Setting  | Description
 -------- | -----------
 Level EQ | When checked, this will compute the average difference between the waveforms and use this to correct the Comparison waveform amplitude. In effect, this applies a graphical EQ with the precision frequency equal to one frequency bin. This can correct for the effect of filters and non-linear frequency response curves of a device.
@@ -87,12 +88,14 @@ EQ From/to | Select the bandwidth where Level and Phase EQ operations are applie
 EQ Threshold | This sets the the lower limit for the frequency bin amplitudes when correcting for Level and Phase EQ. Any frequencies with amplitudes below this limit will not be corrected.
 
 ### Display Options
+
 Setting  | Description
 -------- | -----------
 List | Select the options from the list that you would want to see as the result of the Match operation in DeltaWave. Any items that are not checked will not show as a tab on the main screen. The values and the plot related to the hidden tabs will also not be computed, so the fewer tabs are visible, the faster you'll see the result on the screen. After making any items visible, you'll need to re-run the Match operation to update the plot under the newly visible tabs.
 Calculate MD5 Hash | When selected this will compute an MD5 hash for each of the two files. The value will be included in the Results text. A signature value that can be used to verify that two results were produced using the same files. If the MD5 hashes don't match between the two files, the files are different.
 
 ### DSD Conversion
+
 Setting  | Description
 -------- | -----------
 Resample To | In order to analyze DSD files, DeltaWave needs to convert them to PCM. This selects the desired PCM rate to convert DSD files.
