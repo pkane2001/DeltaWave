@@ -3,7 +3,7 @@ title: Supported features
 tags:
   - getting_started
 keywords: "features, capabilities, comparison, benefits"
-last_updated: "December 17, 2018"
+last_updated: "September 4, 2019"
 summary: "Collection of features available in DeltaWave"
 published: true
 sidebar: mydoc_sidebar
@@ -16,7 +16,7 @@ folder: mydoc
 
 Features      | Notes
 --------------|-----------
-Reads WAV, FLAC, DSD files | Supports 16, 24, 32 bit WAV and FLAC files, as well as various DSF files with DSD64, DSD128, and DSD256 format
+Reads WAV, FLAC, DSD, AIFF, MP3, AAC files | Supports 16, 24, 32 and 64 bit WAV and FLAC files, as well as various DSF files with DSD64, DSD128, and DSD256 format, Apple Losseless as well as MP3 lossy formats
 Level differences | Accurately computes and corrects for level differences between files
 Phase correction | Determines and corrects for fractional phase offset down to 1/1000 of a sample
 Clock Drift correction | Determines and corrects for clock drift between two files
@@ -36,6 +36,6 @@ Features |  Notes
 --------|-----------
 Process files larger than available memory | Planned for future release
 Faster load time for DSF format files | Planned for future release
-Audio Playback | Missing support for ASIO playback
+
 
 {% include links.html %}
