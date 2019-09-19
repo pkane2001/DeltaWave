@@ -44,6 +44,17 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+
+## Changes in 1.0.39b
+* Support for processing, playing, and comparing/exporting stereo files
+* Added new selector for filters to filter Ref, Comp, Ref+Comp
+* Added amplitude range selector for Spectrogram plots
+* Improved FIR filters (LP, HP, and Notch) with better out-of-band rejection
+* Improved aliasing behavior resampling operation to reduce artifacts
+* Cleaned up some control UI sizing and painting issues
+* Proper application of all the new FFT Windows introduced in 1.0.38
+
+
 ## Changes in 1.0.38b
 * Major changes in FFT Windowing routines for improved accuracy at very low levels (below -180dB)
 * Additional FFT Window selections, including
