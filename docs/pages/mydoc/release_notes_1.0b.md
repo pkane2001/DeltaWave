@@ -45,6 +45,12 @@ Examples where this can be useful include:
 * Write out the difference track as 32-bit WAV file for external analysis
 
 
+## Changes in 1.0.40b
+Fixing a few regression items from .39:
+* Re-enable dynamic volume adjustment while playing form the main window
+* Fix wrong color used in Spectrogram when all values are the same (e.g., 0dB)
+* Fix "Stopped! Matrix dimensions must agree: op1 is ..., op2 is ..." error
+
 ## Changes in 1.0.39b
 * Support for processing, playing, and comparing/exporting stereo files
 * Added new selector for filters to filter Ref, Comp, Ref+Comp
