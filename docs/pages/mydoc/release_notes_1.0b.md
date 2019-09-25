@@ -44,6 +44,12 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.42b
+* Fix Non-linear EQ not working
+* Fix artifacts displayed at the very end of a spectrogram
+* Add color palette selection for Spectrograms with many to choose from
+* Add the ability to overlay spectrum plots from previous match runs, including those loaded from disk
+
 
 ## Changes in 1.0.40b
 Fixing a few regression items from .39:
