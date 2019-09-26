@@ -45,7 +45,7 @@ Examples where this can be useful include:
 * Write out the difference track as 32-bit WAV file for external analysis
 
 ## Changes in 1.0.43b
-* Fix for phase and spectrum plots having very small differences betweeen runs
+* Fix for phase and spectrum plots having very small differences between runs
 * Fix for volume going down after a second of play from the main window
 
 ## Changes in 1.0.42b
