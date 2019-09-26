@@ -44,6 +44,10 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.43b
+* Fix for phase and spectrum plots having very small differences betweeen runs
+* Fix for volume going down after a second of play from the main window
+
 ## Changes in 1.0.42b
 * Fix Non-linear EQ not working
 * Fix artifacts displayed at the very end of a spectrogram
