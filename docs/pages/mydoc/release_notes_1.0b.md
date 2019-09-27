@@ -44,6 +44,9 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.44b
+* Fix for index out of bounds when downsampling 48k to 44.1k files
+
 ## Changes in 1.0.43b
 * Fix for phase and spectrum plots having very small differences between runs
 * Fix for volume going down after a second of play from the main window
