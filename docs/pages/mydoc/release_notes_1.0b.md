@@ -44,6 +44,11 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.45b
+* Added option to align and compare simple periodic waveforms
+* Added THD, THD+N, and Dynamic Range calculation when measuring simple sine wave
+* Added overlay options to time-domain waveform plots
+
 ## Changes in 1.0.44b
 * Fix for index out of bounds when downsampling 48k to 44.1k files
 
