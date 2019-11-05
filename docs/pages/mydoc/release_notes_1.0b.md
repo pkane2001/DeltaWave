@@ -44,6 +44,14 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.46b
+* Added non-linearity plot
+* Added legend and harmonic arrows option to matched spectrum plot
+* Fixed Kaiser window not producing correct results when FFT size is equal to the number of samples
+* Turned off curve fitting in phase plot (made the plot too busy and often looked chaotic)
+* Improved the quality of up/down sampling, added appropriate level of dither for the original bit size
+* Changed lower limit on plots to -400dB from -300dB
+
 ## Changes in 1.0.45b
 * Added option to align and compare simple periodic waveforms
 * Added THD, THD+N, and Dynamic Range calculation when measuring simple sine wave
