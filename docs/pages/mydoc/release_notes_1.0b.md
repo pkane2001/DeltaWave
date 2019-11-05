@@ -47,6 +47,7 @@ Examples where this can be useful include:
 ## Changes in 1.0.46b
 * Added non-linearity plot
 * Added legend and harmonic arrows option to matched spectrum plot
+* Clock Drift correction now works in simple waveform measurement mode
 * Fixed Kaiser window not producing correct results when FFT size is equal to the number of samples
 * Turned off curve fitting in phase plot (made the plot too busy and often looked chaotic)
 * Improved the quality of up/down sampling, added appropriate level of dither for the original bit size
