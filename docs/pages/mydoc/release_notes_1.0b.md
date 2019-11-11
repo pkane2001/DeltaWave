@@ -44,6 +44,13 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.47b
+* Put back group delay plot removed in v.46
+* Added separate FFT Window option to non-linear EQ (previously used the same window as Spectrum settings)
+* Improved jitter error result with simple waveform measurements
+* Fixed the amplitude increasing by x4 when using simple waveform measurements combined with drift correction
+
+
 ## Changes in 1.0.46b
 * Added non-linearity plot
 * Added legend and harmonic arrows option to matched spectrum plot
