@@ -50,4 +50,7 @@ entries:
     - title: Technical Details
       url: /details.html
       output: web, pdf
+      title: Distort
+      url: /get_distorted.html
+      output: web, pdf
 
