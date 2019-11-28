@@ -1,11 +1,11 @@
 ---
-title: Get Started
+title: Get Distorted
 tags: [getting_started,installation,download]
 keywords: release notes, announcements, what's new, new features
 last_updated: November 28, 2019
 summary: "Version 1.0b of Distort is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
-permalink: get_started.html
+permalink: get_distorted.html
 folder: mydoc
 comments: true
 ---
