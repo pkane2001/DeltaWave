@@ -23,7 +23,7 @@ Here you go:
 <a href="DistortSetup.zip">Download<input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top" />   </a>
 
 
-Please check this website before then to get an updated copy!
+Please check this website to get an updated copy!
 
 Once the file downloads, extract the installer from ZIP archive and run it to install. Follow prompts.
 
