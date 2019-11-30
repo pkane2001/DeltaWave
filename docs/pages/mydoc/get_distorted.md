@@ -38,7 +38,11 @@ Run Distort, pick a WAV file you may want to apply distortion to by clicking on 
 
 * If you want to make direct adjustments to harmonics levels, click on the Custom... checkbox and enter the desired dB level for each of the harmonics. When Custom is checked, the settings selected using sliders and odd/even checks are ignored.
 
+![Custom](images/distort2.png)
+
 * You can also set the desired noise floor. Click on Noise... checkbox to select it. Enter the desired noise floor shape (white or pink) and the desired level in dB. Press Apply to see the changes reflected on the plots. You can also add a 50Hz or 60Hz mains frequency spike at the desired level. Noise floor settings apply in addition to all other harmonics settings.
+
+![Noise](images/distort3.png)
 
 * When the desired look and level of THD, THD+N and harmonics is achieved, you can press the Play button to hear the distorted file you picked through the audio system connected to your PC, or you can click Save to write the file out to disk, with all the distortions already applied.
 
