@@ -51,6 +51,6 @@ entries:
       url: /details.html
       output: web, pdf
       title: Distort
-      url: https://distortaudio.org
+      url: /get_distorted.html
       output: web, pdf
 
