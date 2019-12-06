@@ -12,8 +12,6 @@ comments: true
 ---
 
 
-<a href="https://distortaudio.org"> <input type="image" id="Distort" alt="Distort" src="images/distort1.png" align="top" /></a>
-
 <p>For DISTORT application please follow <a href="https://distortaudio.org/">this link</a>.</p>
 
 ___
