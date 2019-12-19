@@ -44,6 +44,10 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.48b
+* Fixed some samples set to at the end of of a FLAC file by Naudio.FLAC reader
+* Changed drift computation for simple waveforms to produce a more predictable result
+
 ## Changes in 1.0.47b
 * Put back group delay plot removed in v.46
 * Added separate FFT Window option to non-linear EQ (previously used the same window as Spectrum settings)
