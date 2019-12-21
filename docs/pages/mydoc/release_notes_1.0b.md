@@ -17,8 +17,6 @@ It was inspired by the idea of [Audio DiffMaker](http://www.libinst.com/Audio%20
 ## Is it free?
 DeltaWave is provided to you free of charge, and contains no advertisements or in-program purchases.
 
-This is an early beta version of the software and is set to expire in 60 days. Please check this website before then to get an updated copy!
-
 ## What can I do with it?
 As the most basic function, DeltaWave allows an objective measure of how different two captures of the same audio signal might be.
 
@@ -42,7 +40,7 @@ Examples where this can be useful include:
    *  Phase differences
 * Listen to each track, individually
 * Listen to the difference track after subtracting the two
-* Write out the difference track as 32-bit WAV file for external analysis
+* Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
 ## Changes in 1.0.49b
 * Added DF metric for measuring differences between waveforms [Reference AES PDF](http://soundexpert.org/documents/10179/11017/DiffLevel_AES118.pdf)
