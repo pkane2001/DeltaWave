@@ -44,6 +44,9 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit WAV file for external analysis
 
+## Changes in 1.0.49b
+* Added DF metric for measuring differences between waveforms [Reference AES PDF](http://soundexpert.org/documents/10179/11017/DiffLevel_AES118.pdf)
+  
 ## Changes in 1.0.48b
 * Fixed some samples set to at the end of of a FLAC file by Naudio.FLAC reader
 * Changed drift computation for simple waveforms to produce a more predictable result
