@@ -42,6 +42,9 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
+## Changes in 1.0.50b
+* Changed linearity computation to improve consistency and reduce the random jumps in the plot
+
 ## Changes in 1.0.49b
 * Added DF metric for measuring differences between waveforms [Reference AES PDF](http://soundexpert.org/documents/10179/11017/DiffLevel_AES118.pdf)
   
