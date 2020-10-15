@@ -2,8 +2,8 @@
 title: Release notes
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
-last_updated: July 15, 2019
-summary: "Version 1.0b of DeltaWave is the initial beta release of this software. Use at your own risk!"
+last_updated: October 14, 2020
+summary: "Version 1.0 of DeltaWave is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: release_notes_1.0b.html
 folder: mydoc
@@ -41,6 +41,15 @@ Examples where this can be useful include:
 * Listen to each track, individually
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
+
+
+## Changes in 1.0.51b
+* Change to automatically pick a better size for cross-correlation depending on data
+* Change to reduce iterations when computing drift
+* Added option to change the file trim end setting from how many to trim to how many to include
+* Added larger size FIR filter setting, up to 1M taps
+* Fixed bug that could result in a few zero samples being added at the very end of comparison file
+* Modified memory management to improve handling of files larger than a couple of minutes
 
 ## Changes in 1.0.50b
 * Changed linearity computation to improve consistency and reduce the random jumps in the plot
