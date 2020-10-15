@@ -55,10 +55,6 @@ Examples where this can be useful include:
 * Changed linearity computation to improve consistency and reduce the random jumps in the plot
 
 
-<details>
-  <summary>Click to see the release notes for older versions</summary>
-
-
 ## Changes in 1.0.49b
 * Added DF metric for measuring differences between waveforms [Reference AES PDF](http://soundexpert.org/documents/10179/11017/DiffLevel_AES118.pdf)
   
@@ -344,7 +340,6 @@ Fixing a few regression items from .39:
   * Save Compare File
   * Save Delta File
   
-</details>
 
 ___
 {% include links.html %}
