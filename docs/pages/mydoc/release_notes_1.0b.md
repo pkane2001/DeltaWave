@@ -2,7 +2,7 @@
 title: Release notes
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
-last_updated: October 16, 2020
+last_updated: October 23, 2020
 summary: "Version 1.0 of DeltaWave is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: release_notes_1.0b.html
@@ -41,6 +41,14 @@ Examples where this can be useful include:
 * Listen to each track, individually
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
+
+## Changes in 1.0.53b
+* Added: support to process .mp4, .m4a, and .alac files
+* Added: 2M FFT size for non-linear EQ settings
+* Added: Some new Cosine and Flattop FFT windows
+* Fixed: When using manual adjustment window Gain setting was ignored and recalculated each time
+* Changed: Group delay computation changed to reduce time and memory needed to process
+* Added: Double-clicking on the trim label "End" or "Take" will switch between these two modes
 
 ## Changes in 1.0.52b
 * Fix: error on some computers with no permission to query memory statistics
