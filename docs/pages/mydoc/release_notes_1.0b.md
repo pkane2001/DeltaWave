@@ -42,6 +42,13 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
+
+## Changes in 1.0.54b
+* Added: new FFT window types, including multiple Kaiser
+* Added: FFT Window explorer with time- and frequency-domain plots and measurements
+* Changed: Delta Spectrogram window scale is now locked to Spectrogram 1 and 2
+* Fixed: Under one specific combination of filter settings, filter 1 @start was being ignored
+
 ## Changes in 1.0.53b
 * Added: support to process .mp4, .m4a, and .alac files
 * Added: 2M FFT size for non-linear EQ settings
