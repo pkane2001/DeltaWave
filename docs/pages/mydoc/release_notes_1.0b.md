@@ -43,6 +43,9 @@ Examples where this can be useful include:
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
 
+## Changes in 1.0.55b
+* Fix: Delta spectrogram dB range set incorrectly to the same as Spectrogram 1 & 2
+
 ## Changes in 1.0.54b
 * Added: new FFT window types, including multiple Kaiser
 * Added: FFT Window explorer with time- and frequency-domain plots and measurements
