@@ -2,7 +2,7 @@
 title: Release notes
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
-last_updated: October 23, 2020
+last_updated: Dec 24, 2020
 summary: "Version 1.0 of DeltaWave is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: release_notes_1.0b.html
@@ -41,6 +41,10 @@ Examples where this can be useful include:
 * Listen to each track, individually
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
+
+## Changes in 1.0.56b
+* Fix: Drift correction could result in a decrease in higher frequencies in the spectrum plot
+* Fix: Turning off drift correction would not clear the previously computed data in the Clock Drift plot
 
 
 ## Changes in 1.0.55b
