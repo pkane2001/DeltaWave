@@ -42,6 +42,13 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
+
+## Changes in 1.0.57b
+* Added: ERB trend-line option for FFT plots in settings
+* Added: PK Error Metric and screen
+* Changed: phase unwrap behavior and algorithm
+* Added: ERB trend-line as Group Delay added to uncorrected Delta Phase plot
+
 ## Changes in 1.0.56b
 * Fix: Drift correction could result in a decrease in higher frequencies in the spectrum plot
 * Fix: Turning off drift correction would not clear the previously computed data in the Clock Drift plot
