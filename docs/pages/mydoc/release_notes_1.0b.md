@@ -45,7 +45,7 @@ Examples where this can be useful include:
 
 ## Changes in 1.0.57b
 * Added: ERB trend-line option for FFT plots in settings
-* Added: [PK Error Metric and screen](/pk_metric.htm)
+* Added: [PK Error Metric and screen](pk_metric.htm)
 * Changed: phase unwrap behavior and algorithm
 * Added: ERB trend-line as Group Delay added to uncorrected Delta Phase plot
 
