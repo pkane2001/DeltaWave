@@ -30,6 +30,10 @@ entries:
       url: /mydoc_supported_features.html
       output: web, pdf
     
+    - title: PK Error Metric
+      url: /pk_metric.html
+      output: web, pdf
+    
   - title: Instructions
     output: web, pdf
     folderitems:
