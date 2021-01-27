@@ -1,5 +1,5 @@
 ---
-title: PK Metric
+title: PK Error Metric
 tags: [pkmetric]
 keywords: PK Metric, perception, audible, delta, error, difference
 last_updated: Jan 27, 2021
