@@ -101,42 +101,7 @@ Examples where this can be useful include:
 * Improved jitter error result with simple waveform measurements
 * Fixed the amplitude increasing by x4 when using simple waveform measurements combined with drift correction
 
-
-## Changes in 1.0.46b
-* Added non-linearity plot
-* Added legend and harmonic arrows option to matched spectrum plot
-* Clock Drift correction now works in simple waveform measurement mode
-* Fixed Kaiser window not producing correct results when FFT size is equal to the number of samples
-* Turned off curve fitting in phase plot (made the plot too busy and often looked chaotic)
-* Improved the quality of up/down sampling, added appropriate level of dither for the original bit size
-* Changed lower limit on plots to -400dB from -300dB
-
-## Changes in 1.0.45b
-* Added option to align and compare simple periodic waveforms
-* Added THD, THD+N, and Dynamic Range calculation when measuring simple sine wave
-* Added overlay options to time-domain waveform plots
-
-## Changes in 1.0.44b
-* Fix for index out of bounds when downsampling 48k to 44.1k files
-
-## Changes in 1.0.43b
-* Fix for phase and spectrum plots having very small differences between runs
-* Fix for volume going down after a second of play from the main window
-
-## Changes in 1.0.42b
-* Fix Non-linear EQ not working
-* Fix artifacts displayed at the very end of a spectrogram
-* Add color palette selection for Spectrograms with many to choose from
-* Add the ability to overlay spectrum plots from previous match runs, including those loaded from disk
-
-
-## Changes in 1.0.40b
-Fixing a few regression items from .39:
-* Re-enable dynamic volume adjustment while playing form the main window
-* Fix wrong color used in Spectrogram when all values are the same (e.g., 0dB)
-* Fix "Stopped! Matrix dimensions must agree: op1 is ..., op2 is ..." error
-
-  
+ 
 
 ___
 {% include links.html %}
