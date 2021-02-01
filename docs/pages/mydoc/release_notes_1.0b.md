@@ -42,6 +42,15 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
+## Changes in 1.0.58b
+* Added: Separate setting for sub-sample alignment, independent of drift correction
+* Added: Additional values for phase and non-linear threshold settings
+* Changed: setting changes are saved immediately when exiting settings window, not when exiting DeltaWave as before
+* Fixed: group-delay/phase trend plot should be a better curve fit to the phase plot
+* Fixed: phase limit setting now works as expected, was ignored previously
+* Added: (experimental) 400ms window filtered error signal in PK Metric plot. Hold down Ctrl key while mousing over the main plot to update.
+* Fixed: File end trim/take settings are now enforced up to the sample. Previously could vary based on file buffer size.
+
 
 ## Changes in 1.0.57b
 * Added: ERB trend-line option for FFT plots in settings
