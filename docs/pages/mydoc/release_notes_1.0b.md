@@ -42,6 +42,13 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
+## Changes in 1.0.59b
+* Fixed: corrected sub-sample matching behavior of simple/periodic waveforms (regression from .58)
+* Added: Automatic trim of silence at both ends of a file when using Auto-Trim option
+* Added: Automatic detection of simple/periodic waveforms. If simple waveforms option is not on, user will be asked to turn it on
+* Changed: Improved THD+N measurements for simple (single frequency) waveforms
+* Fixed: dB display in THD frequency plot for simple waveforms -- used to display in scientific notation the first time it's used
+
 ## Changes in 1.0.58b
 * Added: Separate setting for sub-sample alignment, independent of drift correction
 * Added: Additional values for phase and non-linear threshold settings
