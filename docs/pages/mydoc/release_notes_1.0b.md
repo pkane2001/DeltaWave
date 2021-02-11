@@ -42,6 +42,9 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
+## Changes in 1.0.60b
+* Fixed: auto-trim function under some conditions could result in extra zero samples being added to the waveform
+
 
 ## Changes in 1.0.60b
 * Fixed: regression in 1.0.59 could cause an index out of bounds error when processing "stereo" channels with inverted absolute phase
