@@ -30,4 +30,4 @@ Use the PayPal Donate button below to help me develop this and other Audio softw
 
 
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLm4VqAFhcOO-jgVr6yJAe2N7McjH_YVAPYqE9gB87TfKpumEKWSDoJsAfqUn6OlFSuBMXHEBUip73/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe onload="this.width=screen.width;this.height=screen.height;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLm4VqAFhcOO-jgVr6yJAe2N7McjH_YVAPYqE9gB87TfKpumEKWSDoJsAfqUn6OlFSuBMXHEBUip73/pubhtml?widget=true&amp;headers=false"></iframe>
