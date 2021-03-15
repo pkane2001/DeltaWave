@@ -5,23 +5,18 @@
 sidebar: mydoc_sidebar
 layout: "page"
 toc: false
-title: DeltaWave Audio Null Comparator
+title: DeltaWave Analysis of Gearslutz AD/DA results
 comments: true
 ---
 
-## <a href="DeltaWaveSetup.zip">Download 64-bit  <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top">   </a>
-<br>
 [Release notes](pages/mydoc/release_notes_1.0b.md)
 
-This is an early beta version of the software. Please check this website before then to get an updated copy!
+
 
 ## You may also be interested in these:
 * <a href="https://distortaudio.org" target="_blank">DISTORT</a> - Your personal simulation of what various distortions do to audio
 * <a href="https://distortaudio.org/earful.html">Earful</a> - An audiophile Hearing Test 
 * <a href="https://distortaudio.org/pkharmonic.html">PKHarmonic VST Plugin </a> - VST Plugin to add the desired level of 2nd and other harmonics to music<br>
-
-
-* New: [Gearslutz AD/DA loopback data reprocessed with DeltaWave!](pages/mydoc/gearslutz.md)
 
 <br>
 Use the PayPal Donate button below to help me develop this and other Audio software! Leave me a note with payment to indicate which software you're using, and anything else that you'd like to see written:
@@ -33,17 +28,6 @@ Use the PayPal Donate button below to help me develop this and other Audio softw
 </form>
 <br>
 
-![waveform](images/Lyra1.png)
-
-![waveform](images/img1.png)
-
-![waveform](images/img2.png)
-
-![waveform](images/img3.png)
-
-![waveform](images/img4.png)
-
-![waveform](images/Madison.png)
 
 
-{% include links.html %}
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLm4VqAFhcOO-jgVr6yJAe2N7McjH_YVAPYqE9gB87TfKpumEKWSDoJsAfqUn6OlFSuBMXHEBUip73/pubhtml?widget=true&amp;headers=false"></iframe>
