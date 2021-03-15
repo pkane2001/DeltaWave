@@ -15,8 +15,8 @@ comments: true
 
 
 ## You may also be interested in these:
-* <a href="https://deltaw.org/index.html" target="_blank"> DeltaWave</a> - Music null-analysis and comparison
-* <a href="https://distortaudio.org" target="_blank">DISTORT</a> - Your personal simulation of what various distortions do to audio
+* <a href="https://deltaw.org/index.html"> DeltaWave</a> - Music null-analysis and comparison
+* <a href="https://distortaudio.org">DISTORT</a> - Your personal simulation of what various distortions do to audio
 * <a href="https://distortaudio.org/earful.html">Earful</a> - An audiophile Hearing Test
 * <a href="https://distortaudio.org/pkharmonic.html">PKHarmonic VST Plugin </a> - VST Plugin to add the desired level of 2nd and other harmonics to music<br>
 
