@@ -14,7 +14,7 @@ comments: true
 
 
 
-[DeltaWave](index.md)
+[DeltaWave main page](index.html)
 
 
 
