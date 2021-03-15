@@ -1,15 +1,20 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+title: Gearslutz AD/DA data analisys using DeltaWave
+tags: [DeltaWave, Gearslutz, loopback, AD/DA]
+keywords: DeltaWave, Gearslutz, loopback, AD/DA
+last_updated: March 15, 2021
+summary: "DeltaWave Analysis of Gearslutz AD/DA results"
 sidebar: mydoc_sidebar
-layout: "page"
+permalink: gearslutz.html
+folder: mydoc
 toc: false
-title: DeltaWave Analysis of Gearslutz AD/DA results
+datatable: true
 comments: true
 ---
 
-[Release notes](pages/mydoc/release_notes_1.0b.md)
+
+
+[DeltaWave](index.md)
 
 
 
