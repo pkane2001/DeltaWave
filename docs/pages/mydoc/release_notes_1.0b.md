@@ -2,7 +2,7 @@
 title: Release notes
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
-last_updated: Dec 24, 2020
+last_updated: March 26, 2021
 summary: "Version 1.0 of DeltaWave is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: release_notes_1.0b.html
@@ -41,6 +41,22 @@ Examples where this can be useful include:
 * Listen to each track, individually
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
+
+## Changes in 1.0.62b
+* Added: Configuration selection in Setup window, along with reset and save options
+* Added: Command-line arguments to automatically process files and write out the result
+* Added: Set Trim levels to current Zoom level menu under Edit
+* Added: Play zoomed-in portion of wave file menu under Play
+* Added: PK Metric column and optimization option to Manual Adjustments window
+* Added: Option to display and enter gain settings in DB in Manual Adjustments window
+* Added: Right click pop-up menu for showing/hiding tabs (right-click on any visible tab)
+* Added: Linearity measurement at 0.5dB error (in bits)
+* Added: Check/uncheck button to select or unselect all tabs in the Setup window
+* Changed: Manual Adjustments window will now apply new file trim settings, if changed
+* Changed: Frequency axis log scale labels should work better with high-resolution displays, previously could cause overlaps
+* Changed: sub-sample offset calculation to work better with noise signals
+* Changed: zero value in "Take" trim level will now result in taking the whole file, just like it does with "End" setting. Previously resulted in error message
+
 
 ## Changes in 1.0.61b
 * Fixed: auto-trim function under some conditions could result in extra zero samples being added to the waveform
