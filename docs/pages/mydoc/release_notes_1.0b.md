@@ -45,6 +45,7 @@ Examples where this can be useful include:
 ## Changes in 1.0.63b
 * Fix: Settings window toolbar can overlap text below under certain DPI settings
 * Fix: Exception and stop processing when linearity plot contains too few samples in the lower few bits
+* Fix: When subsample correction is enabled but drift correction is turned off, small delays below 1/1000000 of a sample might still be processed and applied, unnecessarily. These were properly ignored if drift correction was enabled
 
 ## Changes in 1.0.62b
 * Added: Configuration selection in Setup window, along with reset and save options
