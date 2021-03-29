@@ -44,7 +44,7 @@ Examples where this can be useful include:
 
 ## Changes in 1.0.63b
 * Fix: Settings window toolbar can overlap text below under certain DPI settings
-* Fix: Exception and stop processing when linearty plot contains too few samples in the lower few bits
+* Fix: Exception and stop processing when linearity plot contains too few samples in the lower few bits
 
 ## Changes in 1.0.62b
 * Added: Configuration selection in Setup window, along with reset and save options
