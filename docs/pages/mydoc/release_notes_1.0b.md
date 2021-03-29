@@ -42,6 +42,10 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
+## Changes in 1.0.63b
+* Fix: Settings window toolbar can overlap text below under certain DPI settings
+* Fix: Exception and stop processing when linearty plot contains too few samples in the lower few bits
+
 ## Changes in 1.0.62b
 * Added: Configuration selection in Setup window, along with reset and save options
 * Added: Command-line arguments to automatically process files and write out the result
@@ -110,19 +114,6 @@ Examples where this can be useful include:
 * Fixed: When using manual adjustment window Gain setting was ignored and recalculated each time
 * Changed: Group delay computation changed to reduce time and memory needed to process
 * Added: Double-clicking on the trim label "End" or "Take" will switch between these two modes
-
-## Changes in 1.0.52b
-* Fix: error on some computers with no permission to query memory statistics
-* Fix: filter 1 settings for LP and HP filters @ start were not being processed
-* Fix: measure simple waveforms option interrupted alignment process
-
-## Changes in 1.0.51b
-* Change to automatically pick a better size for cross-correlation depending on data
-* Change to reduce iterations when computing drift
-* Added option to change the file trim end setting from how many to trim to how many to include
-* Added larger size FIR filter setting, up to 1M taps
-* Fixed bug that could result in a few zero samples being added at the very end of comparison file
-* Modified memory management to improve handling of files larger than a couple of minutes
 
  
 
