@@ -46,6 +46,7 @@ Examples where this can be useful include:
 ## Changes in 1.0.64b
 * Change: Added a *View->Chart Options->Linearity index to 0* menu option to turn on/off linearity plot normalization (on by default)
 * Added: FFT Scrubber processing and plot window with audio scrubbing
+* Added: two new, smaller Spectrogram FFT Size settings: 256 and 512
 
 ## Changes in 1.0.63b
 * Fix: Settings window toolbar can overlap text below under certain DPI settings
