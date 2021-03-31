@@ -44,7 +44,7 @@ Examples where this can be useful include:
 
 
 ## Changes in 1.0.64b
-* Change: Added a *View->Chart Options->Linearity index to 0* menu option to turn on/off linearty plot normalization (on by default)
+* Change: Added a *View->Chart Options->Linearity index to 0* menu option to turn on/off linearity plot normalization (on by default)
 * Added: FFT Scrubber processing and plot window with audio scrubbing
 
 ## Changes in 1.0.63b
