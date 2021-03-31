@@ -42,7 +42,12 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
-## Changes in 1.0.63b
+
+## Changes in 1.0.64b
+* Change: Added a *View->Chart Options->Linearity index to 0* menu option to turn on/off linearty plot normalization (on by default)
+* Added: FFT Scrubber processing and plot window with audio scrubbing
+
+## Changes in 1.0.64b
 * Fix: Settings window toolbar can overlap text below under certain DPI settings
 * Fix: Exception and stop processing when linearity plot contains too few samples in the lower few bits
 * Fix: When subsample correction is enabled but drift correction is turned off, small delays below 1/1000000 of a sample might still be processed and applied, unnecessarily. These were properly ignored if drift correction was enabled
