@@ -43,6 +43,12 @@ Examples where this can be useful include:
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
 
+## Changes in 1.0.66b
+* Fixed: matching of files smaller than FFT Size (caused an error previously)
+* Changed: units labeled "V" changed "Amplitude" in IR plot viewer to better reflect value from -1 to 1
+* Changed: IR plots are now interpolated
+* Fixed: Plot refresh button now refreshes IR plot
+
 ## Changes in 1.0.65b
 * Added: Impulse Response averaging, correction, and export
 * Added: Impulse Response plot with selectable units
@@ -114,25 +120,6 @@ Examples where this can be useful include:
 ## Changes in 1.0.56b
 * Fix: Drift correction could result in a decrease in higher frequencies in the spectrum plot
 * Fix: Turning off drift correction would not clear the previously computed data in the Clock Drift plot
-
-
-## Changes in 1.0.55b
-* Fix: Delta spectrogram dB range set incorrectly to the same as Spectrogram 1 & 2
-
-## Changes in 1.0.54b
-* Added: new FFT window types, including multiple Kaiser
-* Added: FFT Window explorer with time- and frequency-domain plots and measurements
-* Changed: Delta Spectrogram window scale is now locked to Spectrogram 1 and 2
-* Fixed: Under one specific combination of filter settings, filter 1 @start was being ignored
-
-## Changes in 1.0.53b
-* Added: support to process .mp4, .m4a, and .alac files
-* Added: 2M FFT size for non-linear EQ settings
-* Added: Some new Cosine and Flattop FFT windows
-* Fixed: When using manual adjustment window Gain setting was ignored and recalculated each time
-* Changed: Group delay computation changed to reduce time and memory needed to process
-* Added: Double-clicking on the trim label "End" or "Take" will switch between these two modes
-
  
 
 ___
