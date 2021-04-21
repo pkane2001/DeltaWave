@@ -47,11 +47,12 @@ Examples where this can be useful include:
 * Added: Impulse Response averaging, correction, and export
 * Added: Impulse Response plot with selectable units
 * Added: Frequency response file exports in REW text format
-* Changed: Reorgranized File menu
+* Changed: Reorganized File menu
 * Added: In FFT Scrub control, hold down Control key while using mouse wheel to accelerate scrubbing by 50x
 * Changed: selected zoom levels per chart are now saved with the settings and will be in effect next time DeltaWave is started
 * Changed: added option to save/reload custom zoom settings for all plot windows
 * Changed: Small adjustment in gain difference computation for improved accuracy
+* Added: FFT Scrubber now displays RMS values of the three signals (Ref, Comp, Delta)
 
 ## Changes in 1.0.64b
 * Change: Added a *View->Chart Options->Linearity index to 0* menu option to turn on/off linearity plot normalization (on by default)
