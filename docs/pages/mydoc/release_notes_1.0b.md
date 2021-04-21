@@ -2,7 +2,7 @@
 title: Release notes
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
-last_updated: March 26, 2021
+last_updated: April 20, 2021
 summary: "Version 1.0 of DeltaWave is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: release_notes_1.0b.html
@@ -42,6 +42,16 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
+
+## Changes in 1.0.65b
+* Added: Impulse Response averaging, correction, and export
+* Added: Impulse Response plot with selectable units
+* Added: Frequency response file exports in REW text format
+* Changed: Reorgranized File menu
+* Added: In FFT Scrub control, hold down Control key while using mouse wheel to accelerate scrubbing by 50x
+* Changed: selected zoom levels per chart are now saved with the settings and will be in effect next time DeltaWave is started
+* Changed: added option to save/reload custom zoom settings for all plot windows
+* Changed: Small adjustment in gain difference computation for improved accuracy
 
 ## Changes in 1.0.64b
 * Change: Added a *View->Chart Options->Linearity index to 0* menu option to turn on/off linearity plot normalization (on by default)

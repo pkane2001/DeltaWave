@@ -3,7 +3,7 @@
 entries:
 - title: sidebar
   product: DeltaWave
-  version: 1.0.64b
+  version: 1.0.65b
   accordion: true
 
   folders:
@@ -33,7 +33,11 @@ entries:
     - title: PK Error Metric
       url: /pk_metric.html
       output: web, pdf
-    
+
+    - title: Impulse Response
+      url: /ir.html
+      output: web, pdf
+
     - title: Gearslutz AD/DA reprocessed
       url: /gearslutz.html
       output: web, pdf
