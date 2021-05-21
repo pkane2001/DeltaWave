@@ -42,6 +42,12 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
+## Changes in 1.0.67b
+* Fixed: upsampling caused an index out of range error under certain conditions
+* Added: FFT Scrub plot will now update automatically in sync with playing music
+* Added: A few new sizes of Tukey FFT Windows
+* Added: Import of IR WAV-format files
+
 
 ## Changes in 1.0.66b
 * Fixed: matching of files smaller than FFT Size (caused an error previously)
