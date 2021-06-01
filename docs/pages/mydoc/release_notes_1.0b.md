@@ -42,6 +42,11 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
+
+## Changes in 1.0.68b
+* Fixed: 64-bit WAV files header changed to WAVE_FORMAT_IEEE_FLOAT from WAVE_FORMAT_PCM
+* Added: Support for loading 8-bit unsigned WAV file format
+
 ## Changes in 1.0.67b
 * Fixed: upsampling caused an index out of range error under certain conditions
 * Added: FFT Scrub plot will now update automatically in sync with playing music
