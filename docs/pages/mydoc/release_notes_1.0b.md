@@ -2,7 +2,7 @@
 title: Release notes
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
-last_updated: April 20, 2021
+last_updated: June 28, 2021
 summary: "Version 1.0 of DeltaWave is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: release_notes_1.0b.html
@@ -42,6 +42,11 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
+
+## Changes in 1.0.69b
+* Added: minimum phase filters can now be used in addition to linear phase ones
+* Changed: Improved group delay plot to more closely match phase variations
+* Changed: Cepstrum plot to use time (quefrency) scale on the X-axis, changed annotations to show frequency and time
 
 ## Changes in 1.0.68b
 * Fixed: 64-bit WAV files header changed to WAVE_FORMAT_IEEE_FLOAT from WAVE_FORMAT_PCM
