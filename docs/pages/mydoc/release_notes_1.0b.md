@@ -2,7 +2,7 @@
 title: Release notes
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
-last_updated: June 28, 2021
+last_updated: July 12, 2021
 summary: "Version 1.0 of DeltaWave is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: release_notes_1.0b.html
@@ -42,6 +42,10 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
+## Changes in 1.0.70b
+* Added: support for log-frequency display in spectrograms
+* Fixed: the name of FFT window Tukey0.01 was misspelled
+  
 
 ## Changes in 1.0.69b
 * Added: minimum phase filters can now be used in addition to linear phase ones
@@ -116,26 +120,6 @@ Examples where this can be useful include:
 * Added: Automatic detection of simple/periodic waveforms. If simple waveforms option is not on, user will be asked to turn it on
 * Changed: Improved THD+N measurements for simple (single frequency) waveforms
 * Fixed: dB display in THD frequency plot for simple waveforms -- used to display in scientific notation the first time it's used
-
-## Changes in 1.0.58b
-* Added: Separate setting for sub-sample alignment, independent of drift correction
-* Added: Additional values for phase and non-linear threshold settings
-* Changed: setting changes are saved immediately when exiting settings window, not when exiting DeltaWave as before
-* Fixed: group-delay/phase trend plot should be a better curve fit to the phase plot
-* Fixed: phase limit setting now works as expected, was ignored previously
-* Added: (experimental) 400ms window filtered error signal in PK Metric plot. Hold down Ctrl key while mousing over the main plot to update.
-* Fixed: File end trim/take settings are now enforced up to the sample. Previously could vary based on file buffer size.
-
-
-## Changes in 1.0.57b
-* Added: ERB trend-line option for FFT plots in settings
-* Added: [PK Error Metric and screen](pk_metric.html)
-* Changed: phase unwrap behavior and algorithm
-* Added: ERB trend-line as Group Delay added to uncorrected Delta Phase plot
-
-## Changes in 1.0.56b
-* Fix: Drift correction could result in a decrease in higher frequencies in the spectrum plot
-* Fix: Turning off drift correction would not clear the previously computed data in the Clock Drift plot
  
 
 ___
