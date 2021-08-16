@@ -42,7 +42,7 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
-## Changes in 1.0.71b
+## Changes in 1.0.71b - [link to discussion](https://www.audiosciencereview.com/forum/index.php?threads/beta-test-deltawave-null-comparison-software.6633/post-881489)
 * Added: option to show samples and sinc-interpolation on extremem zoom-in of waveform
 * Added: non-linear EQ option to correct for small linearity errors
 * Changed: log frequency display is now using more logical steps, showing easier to read frequencies instead of fractions
