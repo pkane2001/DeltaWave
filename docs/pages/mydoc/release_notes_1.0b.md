@@ -2,7 +2,7 @@
 title: Release notes
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
-last_updated: July 12, 2021
+last_updated: August 16, 2021
 summary: "Version 1.0 of DeltaWave is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: release_notes_1.0b.html
@@ -41,6 +41,14 @@ Examples where this can be useful include:
 * Listen to each track, individually
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
+
+## Changes in 1.0.71b
+* Added: option to show samples and sinc-interpolation on extremem zoom-in of waveform
+* Added: non-linear EQ option to correct for small linearity errors
+* Changed: log frequency display is now using more logical steps, showing easier to read frequencies instead of fractions
+* Fixed: a number of edge conditions that could result in the match operation terminating prematurely
+* Reverted: removed log-frequency display in spectrograms due to incorrect labeling at certain sampling frequencies. I'll try to fix it in the future.
+
 
 ## Changes in 1.0.70b
 * Added: support for log-frequency display in spectrograms
