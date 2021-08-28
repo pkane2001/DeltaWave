@@ -43,7 +43,7 @@ Examples where this can be useful include:
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
 
-## Changes in 2.0.0 - [link to discussion](https://www.audiosciencereview.com/forum/index.php?threads/beta-test-deltawave-null-comparison-software.6633/post-881489)
+## Changes in 2.0.0 - [link to discussion](https://www.audiosciencereview.com/forum/index.php?threads/beta-test-deltawave-null-comparison-software.6633/post-893612)
 * This is the first official release without the "beta" designation (!)
 * Added: fully functional version of the log-frequency spectrogram
 * Changed: improved speed of update on spectrogram plots
@@ -52,7 +52,7 @@ Examples where this can be useful include:
 * Improved:  accuracy of the subsample offset determination
 * Improved: made charts update quicker during a match operation
 * Fix: minor clean up to additional edge condition handling
-* Added: new resampler rates, 384k and 768k
+* Added: new resampler rates,  352.8k, 384k, 705.6k and 768k
 * Added: the full list of FFT Windows to all drop-downs on the Setup screen
 
 ## Changes in 1.0.71b - [link to discussion](https://www.audiosciencereview.com/forum/index.php?threads/beta-test-deltawave-null-comparison-software.6633/post-881489)
