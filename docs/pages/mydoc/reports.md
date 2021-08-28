@@ -3,7 +3,7 @@ title: Reports
 tags: [report]
 keywords: report, plot, chart
 last_updated: February 7, 2019
-summary: "DeltaWave is the initial beta release of this software. Use at your own risk!"
+summary: "Version 2.0 of DeltaWave. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: reports.html
 folder: mydoc

@@ -13,7 +13,7 @@ comments: true
 <br>
 [Release notes](pages/mydoc/release_notes.md)
 
-This is an early beta version of the software. Please check this website before then to get an updated copy!
+This software is constantly updated with new features and improvements. Please check here often to download an updated copy!
 
 ## You may also be interested in these:
 * <a href="https://distortaudio.org" target="_blank">DISTORT</a> - Your personal simulation of what various distortions do to audio

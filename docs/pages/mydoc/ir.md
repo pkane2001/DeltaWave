@@ -3,7 +3,7 @@ title: Impulse Response
 tags: [IR]
 keywords: IR,Impulse Response
 last_updated: April 20, 2021
-summary: "Version 1.0 of DeltaWave is the initial beta release of this software. Use at your own risk!"
+summary: "Version 2.0 of DeltaWave. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: ir.html
 folder: mydoc

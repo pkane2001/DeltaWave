@@ -3,7 +3,7 @@ title: DeltaWave Comparator
 tags: [ABX, X/Y, XY, AB, testing, test, blind, sighted, compare, comparator]
 keywords: ABX, compare, comparator
 last_updated: March 17, 2019
-summary: "Version 1.0b of DeltaWave is the initial beta release of this software. Use at your own risk!"
+summary: "Version 2.0 of DeltaWave. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: comparator.html
 folder: mydoc

@@ -3,7 +3,7 @@ title: PK Error Metric
 tags: [pkmetric]
 keywords: PK Metric, perception, audible, delta, error, difference
 last_updated: Jan 27, 2021
-summary: "Version 1.0 of DeltaWave is the initial beta release of this software. Use at your own risk!"
+summary: "Version 2.0 of DeltaWave. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: pk_metric.html
 folder: mydoc

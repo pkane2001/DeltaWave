@@ -3,7 +3,7 @@ title: Details
 tags: [technical_details]
 keywords: details, advanced, technical, cepstrum, fft, phase, gain, reference
 last_updated: March 15, 2019
-summary: "Version 1.0b of DeltaWave is the initial beta release of this software. Use at your own risk!"
+summary: "Version 2.0 of DeltaWave. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: details.html
 folder: mydoc

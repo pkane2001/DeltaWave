@@ -3,7 +3,7 @@ title: Quick Start Guide
 tags: [getting_started, quick_start]
 keywords: release notes, announcements, what's new, new features
 last_updated: December 17, 2018
-summary: "Version 1.x.xb of DeltaWave is the initial beta release of this software. Use at your own risk!"
+summary: "Version 2.0 of DeltaWave. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: mydoc_quickstart.html
 folder: mydoc

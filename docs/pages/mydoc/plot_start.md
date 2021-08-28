@@ -3,7 +3,7 @@ title: Plot Control
 tags: [plot, chart]
 keywords: plot, chart, keys, mouse, scroll
 last_updated: December 17, 2018
-summary: "Version 1.0b of DeltaWave is the initial beta release of this software. Use at your own risk!"
+summary: "Version 2.0 of DeltaWave. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: plot_start.html
 folder: mydoc
