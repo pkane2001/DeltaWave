@@ -5,7 +5,7 @@ keywords: release notes, announcements, what's new, new features
 last_updated: August 28, 2021
 summary: "Version 2.0 is free software. Use at your own risk!"
 sidebar: mydoc_sidebar
-permalink: release_notes_1.0b.html
+permalink: release_notes.html
 folder: mydoc
 comments: true
 ---
