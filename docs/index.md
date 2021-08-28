@@ -21,7 +21,7 @@ This is an early beta version of the software. Please check this website before 
 * <a href="https://distortaudio.org/pkharmonic.html">PKHarmonic VST Plugin </a> - VST Plugin to add the desired level of 2nd and other harmonics to music<br>
 
 
-* New: [Gearslutz AD/DA loopback data reprocessed with DeltaWave!](pages/mydoc/gearslutz.md)
+* New: [Gearspace AD/DA loopback data reprocessed with DeltaWave!](pages/mydoc/gearslutz.md)
 
 <br>
 Use the PayPal Donate button below to help me develop this and other Audio software! Leave me a note with payment to indicate which software you're using, and anything else that you'd like to see written:
