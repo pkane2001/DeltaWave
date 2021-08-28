@@ -2,8 +2,8 @@
 title: Release notes
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
-last_updated: August 16, 2021
-summary: "Version 1.0 of DeltaWave is the initial beta release of this software. Use at your own risk!"
+last_updated: August 28, 2021
+summary: "Version 2.0 is free software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: release_notes_1.0b.html
 folder: mydoc
@@ -41,6 +41,19 @@ Examples where this can be useful include:
 * Listen to each track, individually
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
+
+
+## Changes in 2.0.0 - [link to discussion](https://www.audiosciencereview.com/forum/index.php?threads/beta-test-deltawave-null-comparison-software.6633/post-881489)
+* This is the first official release without the "beta" designation (!)
+* Added: fully functional version of the log-frequency spectrogram
+* Changed: improved speed of update on spectrogram plots
+* Added: additional menu options to hide/show multiple tabs on right click on a tab
+* Improved:  accuracy of the Sinc resampler
+* Improved:  accuracy of the subsample offset determination
+* Improved: made charts update quicker during a match operation
+* Fix: minor clean up to additional edge condition handling
+* Added: new resampler rates, 384k and 768k
+* Added: the full list of FFT Windows to all drop-downs on the Setup screen
 
 ## Changes in 1.0.71b - [link to discussion](https://www.audiosciencereview.com/forum/index.php?threads/beta-test-deltawave-null-comparison-software.6633/post-881489)
 * Added: option to show samples and sinc-interpolation on extremem zoom-in of waveform
@@ -87,48 +100,6 @@ Examples where this can be useful include:
 * Changed: added option to save/reload custom zoom settings for all plot windows
 * Changed: Small adjustment in gain difference computation for improved accuracy
 * Added: FFT Scrubber now displays RMS values of the three signals (Ref, Comp, Delta)
-
-## Changes in 1.0.64b
-* Change: Added a *View->Chart Options->Linearity index to 0* menu option to turn on/off linearity plot normalization (on by default)
-* Added: FFT Scrubber processing and plot window with audio scrubbing
-* Added: two new, smaller Spectrogram FFT Size settings: 256 and 512
-
-## Changes in 1.0.63b
-* Fix: Settings window toolbar can overlap text below under certain DPI settings
-* Fix: Exception and stop processing when linearity plot contains too few samples in the lower few bits
-* Fix: When subsample correction is enabled but drift correction is turned off, small delays below 1/1000000 of a sample might still be processed and applied, unnecessarily. These were properly ignored if drift correction was enabled
-
-## Changes in 1.0.62b
-* Added: Configuration selection in Setup window, along with reset and save options
-* Added: Command-line arguments to automatically process files and write out the result
-* Added: Set Trim levels to current Zoom level menu under Edit
-* Added: Play zoomed-in portion of wave file menu under Play
-* Added: PK Metric column and optimization option to Manual Adjustments window
-* Added: Option to display and enter gain settings in DB in Manual Adjustments window
-* Added: Right click pop-up menu for showing/hiding tabs (right-click on any visible tab)
-* Added: Linearity measurement at 0.5dB error (in bits)
-* Added: Check/uncheck button to select or unselect all tabs in the Setup window
-* Changed: Manual Adjustments window will now apply new file trim settings, if changed
-* Changed: Frequency axis log scale labels should work better with high-resolution displays, previously could cause overlaps
-* Changed: sub-sample offset calculation to work better with noise signals
-* Changed: zero value in "Take" trim level will now result in taking the whole file, just like it does with "End" setting. Previously resulted in error message
-
-
-## Changes in 1.0.61b
-* Fixed: auto-trim function under some conditions could result in extra zero samples being added to the waveform
-
-
-## Changes in 1.0.60b
-* Fixed: regression in 1.0.59 could cause an index out of bounds error when processing "stereo" channels with inverted absolute phase
-
-
-## Changes in 1.0.59b
-* Fixed: corrected sub-sample matching behavior of simple/periodic waveforms (regression from .58)
-* Added: Automatic trim of silence at both ends of a file when using Auto-Trim option
-* Added: Automatic detection of simple/periodic waveforms. If simple waveforms option is not on, user will be asked to turn it on
-* Changed: Improved THD+N measurements for simple (single frequency) waveforms
-* Fixed: dB display in THD frequency plot for simple waveforms -- used to display in scientific notation the first time it's used
- 
 
 ___
 {% include links.html %}

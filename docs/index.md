@@ -11,7 +11,7 @@ comments: true
 
 ## <a href="DeltaWaveSetup.zip">Download 64-bit  <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top">   </a>
 <br>
-[Release notes](pages/mydoc/release_notes_1.0b.md)
+[Release notes](pages/mydoc/release_notes.md)
 
 This is an early beta version of the software. Please check this website before then to get an updated copy!
 
@@ -37,11 +37,15 @@ Use the PayPal Donate button below to help me develop this and other Audio softw
 
 ![waveform](images/img1.png)
 
-![waveform](images/img2.png)
+![waveform](images/img2-1.png)
 
-![waveform](images/img3.png)
+![waveform](images/img2-2.png)
 
-![waveform](images/img4.png)
+![waveform](images/img2-3.png)
+
+![waveform](images/img2-4.png)
+
+![waveform](images/img2-5.png)
 
 ![waveform](images/Madison.png)
 
