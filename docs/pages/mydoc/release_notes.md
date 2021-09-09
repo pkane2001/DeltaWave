@@ -43,6 +43,13 @@ Examples where this can be useful include:
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
 
+## Changes in 2.0.1
+* Fix: regression issue with color scaling of delta spectrograms
+* Changed: IIR filter replaced with the maximally flat in-band Butterworth version
+* Fix: FIR filter could previously cause a small error near DC frequency
+* Added: additional filter sizes (8M and 16M taps)
+
+
 ## Changes in 2.0.0 - [link to discussion](https://www.audiosciencereview.com/forum/index.php?threads/beta-test-deltawave-null-comparison-software.6633/post-893612)
 * This is the first official release without the "beta" designation (!)
 * Added: fully functional version of the log-frequency spectrogram
