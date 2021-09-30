@@ -1,6 +1,6 @@
 ---
 title: Gearslutz AD/DA data analisys using DeltaWave
-tags: [DeltaWave, Gearslutz, loopback, AD/DA]
+tags: [DeltaWave, Gearspace, Gearslutz, loopback, AD/DA]
 keywords: DeltaWave, Gearslutz, loopback, AD/DA
 last_updated: March 15, 2021
 summary: "DeltaWave Analysis of Gearspace AD/DA results"
@@ -31,6 +31,8 @@ Use the PayPal Donate button below to help me develop this and other Audio softw
 <br>
 
 
+## DeltaWave Settings used to generate the table below
+![DeltaWave Settings used to generate the table below](images/gear_settings.png)
 
 <iframe onload="this.width=screen.width;this.height=screen.height;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLm4VqAFhcOO-jgVr6yJAe2N7McjH_YVAPYqE9gB87TfKpumEKWSDoJsAfqUn6OlFSuBMXHEBUip73/pubhtml?widget=true&amp;headers=false"></iframe>
 
