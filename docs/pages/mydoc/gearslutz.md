@@ -1,5 +1,5 @@
 ---
-title: Gearslutz AD/DA data analisys using DeltaWave
+title: Gearspace AD/DA data analisys using DeltaWave
 tags: [DeltaWave, Gearspace, Gearslutz, loopback, AD/DA]
 keywords: DeltaWave, Gearslutz, loopback, AD/DA
 last_updated: March 15, 2021
