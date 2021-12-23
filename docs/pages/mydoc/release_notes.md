@@ -43,6 +43,9 @@ Examples where this can be useful include:
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
 
+## Changes in 2.0.2
+* Added: support for reading WAVEX (extended WAVE format) files
+
 ## Changes in 2.0.1
 * Fix: regression issue with color scaling of delta spectrograms
 * Changed: IIR filter replaced with the maximally flat in-band Butterworth version
