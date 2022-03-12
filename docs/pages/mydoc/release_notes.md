@@ -43,6 +43,10 @@ Examples where this can be useful include:
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
 
+## Changes in 2.0.3
+* Added: WASAPI Exclusive/Shared setting
+* Added: % match to the output of the batch-file mode (command line execution)
+
 ## Changes in 2.0.2
 * Added: support for reading WAVEX (extended WAVE format) files
 
