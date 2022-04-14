@@ -38,7 +38,7 @@ entries:
       url: /ir.html
       output: web, pdf
 
-    - title: Gearslutz AD/DA reprocessed
+    - title: Gearspace AD/DA reprocessed
       url: /gearslutz.html
       output: web, pdf
     
