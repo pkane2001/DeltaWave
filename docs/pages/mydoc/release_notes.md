@@ -2,7 +2,7 @@
 title: Release notes
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
-last_updated: August 28, 2021
+last_updated: July 19, 2022
 summary: "Version 2.0 is free software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: release_notes.html
@@ -42,6 +42,9 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
+
+## Changes in 2.0.4 - [link to discussion](https://www.audiosciencereview.com/forum/index.php?threads/beta-test-deltawave-null-comparison-software.6633/post-1253063)
+* Added: Loopback recorder - play, record, and measure all in one click!
 
 ## Changes in 2.0.3
 * Added: WASAPI Exclusive/Shared setting
