@@ -43,6 +43,16 @@ Examples where this can be useful include:
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
 
+## Changes in 2.0.8 - [link to discussion](https://www.audiosciencereview.com/forum/index.php?threads/beta-test-deltawave-null-comparison-software.6633/post-1253063)
+* Fixed: Loopback recorder using different ASIO drivers for input/output
+* Fixed: Recorder not restoring settings when re-invoked
+* Fixed: Error after first installation saying settings file was not found
+* Fixed: One empty channel recorded in 'stereo' mode with ASIO
+* Fixed: Recorder can now be launched with or without reference/comparison files specified in the main window
+* Fixed: Error "Invalid number of input channels 2" when using ASIO output device
+* Fixed: recorder always plays both cannels, even if only one channel is selected
+* Changed: removed option to launch DeltaWave from the installer -- was causing errors due to some installation tasks still being incomplete
+
 ## Changes in 2.0.4 - [link to discussion](https://www.audiosciencereview.com/forum/index.php?threads/beta-test-deltawave-null-comparison-software.6633/post-1253063)
 * Added: Loopback recorder - play, record, and measure all in one click!
 
