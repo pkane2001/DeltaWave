@@ -43,7 +43,7 @@ Examples where this can be useful include:
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
 
-## Changes in 2.0.8 - [link to discussion](https://www.audiosciencereview.com/forum/index.php?threads/beta-test-deltawave-null-comparison-software.6633/post-1253063)
+## Changes in 2.0.8 - [link to discussion](https://www.audiosciencereview.com/forum/index.php?threads/beta-test-deltawave-null-comparison-software.6633/post-1400890)
 * Fixed: Loopback recorder using different ASIO drivers for input/output
 * Fixed: Recorder not restoring settings when re-invoked
 * Fixed: Error after first installation saying settings file was not found
