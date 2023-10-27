@@ -18,9 +18,7 @@ The software is very CPU and memory intensive, recommended configuration at leas
 
 ## Give it to me already!
 Here you go: 
-<a href="DeltaWaveSetup.zip">Download 64-bit (highly recommended) <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top" />   </a>
-
-<a href="DeltaWaveSetup32.zip">Download 32-bit <input type="image" id="download" alt="Download 32-bit" src="images/windows-logo.png" width="30" align="top" />   </a>
+<a href="DeltaWaveSetup.zip">Download 64-bit <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top" />   </a>
 
 
 Please check this website before then to get an updated copy!
