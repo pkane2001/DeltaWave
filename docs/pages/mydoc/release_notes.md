@@ -42,6 +42,11 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
+## Changes in 2.0.12
+* Changed: add support of up to 128 ASIO channels in the Recorder window
+* Added: loudness analysis and comparison feature according to EBU R 128 specification
+* Fixed: ASIO stereo recording with two channels could sometimes record the same data in both channels
+
 ## Changes in 2.0.10
 * Fix: issue when matching AIF/AIFF format files in Stereo mode
 
