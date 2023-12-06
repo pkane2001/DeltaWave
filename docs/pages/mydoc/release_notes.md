@@ -44,7 +44,7 @@ Examples where this can be useful include:
 
 ## Changes in 2.0.12
 * Changed: add support of up to 128 ASIO channels in the Recorder window
-* Added: loudness analysis and comparison feature according to EBU R 128 specification
+* Added: loudness analysis and comparison feature according to EBU R 128 specification with delta, true peak and LRA calculations included
 * Fixed: ASIO stereo recording with two channels could sometimes record the same data in both channels
 
 ## Changes in 2.0.10
