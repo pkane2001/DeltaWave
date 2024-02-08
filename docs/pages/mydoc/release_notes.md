@@ -2,7 +2,7 @@
 title: Release notes
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
-last_updated: Oct 27, 2023
+last_updated: Feb 8, 2024
 summary: "Version 2.0 is free software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: release_notes.html
@@ -41,6 +41,10 @@ Examples where this can be useful include:
 * Listen to each track, individually
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
+
+## Changes in 2.0.13
+* Add: Support for reading OGG Vorbis file formats
+* Fix: rare index out of range error on LUFS computation
 
 ## Changes in 2.0.12
 * Changed: add support of up to 128 ASIO channels in the Recorder window
