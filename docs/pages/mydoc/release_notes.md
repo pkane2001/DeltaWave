@@ -43,7 +43,7 @@ Examples where this can be useful include:
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
 
-## Changes in 2.0.16 - [link to discussion](https://www.audiosciencereview.com/forum/index.php?threads/beta-test-deltawave-null-comparison-software.6633/post-1400890)
+## Changes in 2.0.16 - [link to discussion](https://www.audiosciencereview.com/forum/index.php?threads/beta-test-deltawave-null-comparison-software.6633/post-2213468)
 * Fixed: scaling problem with minimum-phase filter generator
 * Changed: filter corner frequency can now include fractional values and can be entered manually
 
