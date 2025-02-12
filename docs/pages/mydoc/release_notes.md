@@ -42,6 +42,8 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
+## Changes in 2.0.17
+* Fixed: diff file playback in stereo mode could result in 'index out of range' error with certain inputs
 
 ## Changes in 2.0.16 - [link to discussion](https://www.audiosciencereview.com/forum/index.php?threads/beta-test-deltawave-null-comparison-software.6633/post-2213468)
 * Fixed: scaling problem with minimum-phase filter generator
