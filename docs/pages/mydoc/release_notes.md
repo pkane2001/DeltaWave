@@ -42,6 +42,12 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
+## Changes in 2.0.22
+* Add: Option to automatically remove the effects of a minimum-phase DC filter. The automatic DC filter calculation and removal is configured under settings
+* Add: Menu option to calculate the corner frequency of a minimum-phase DC filter (Process->Compute DC Filter Correction)
+* Fix: Trim ends function could cause occasional phase errors at the end of the comparison
+* Change: optimized and improved clock drift calculation
+
 ## Changes in 2.0.17
 * Fixed: diff file playback in stereo mode could result in 'index out of range' error with certain inputs
 
