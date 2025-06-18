@@ -42,6 +42,9 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
+## Changes in 2.0.23
+* Add: results tab will now contain a line with the results similar to those reported in [GearSpace thread](https://gearspace.com/board/showpost.php?p=17439861&postcount=3118) for easier comparison
+
 ## Changes in 2.0.22
 * Add: Option to automatically remove the effects of a minimum-phase DC filter. The automatic DC filter calculation and removal is configured under settings
 * Add: Menu option to calculate the corner frequency of a minimum-phase DC filter (Process->Compute DC Filter Correction)
