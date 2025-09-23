@@ -42,6 +42,9 @@ Examples where this can be useful include:
 * Listen to the difference track after subtracting the two
 * Write out the difference track as 32-bit or 64-bit WAV file for external analysis
 
+## Changes in 2.0.25
+* Change: adjusted LUFS calculation filter profile to better match specification
+
 ## Changes in 2.0.24
 * Change: squeezed out a bit more precision in the clock drift/offset calculation
 
